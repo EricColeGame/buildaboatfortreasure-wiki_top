@@ -19,18 +19,18 @@ export interface SiteConfig {
 }
 
 export const siteConfig: SiteConfig = {
-  name: "My Seafood Stand Wiki",
-  shortName: "My Seafood Stand",
-  logoText: "SS",
-  tagline: "Complete Guides, Codes, Recipes & Tier Lists",
-  description: "Your ultimate guide to My Seafood Stand on Roblox! Explore active working codes, seafood recipes, best upgrades, profit strategies, and progression guides.",
-  url: process.env.NEXT_PUBLIC_SITE_URL || "https://myseafoodstand.top",
-  supportEmail: `support@${new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://myseafoodstand.top").hostname.replace(/^www\./, "")}`,
-  gameUrl: "https://www.roblox.com/games/my-seafood-stand",
-  heroVideoId: "M8DvcwoFRrk", // Roblox My Seafood Stand codes & gameplay video
+  name: "Build A Boat For Treasure Wiki",
+  shortName: "Build A Boat For Treasure",
+  logoText: "B",
+  tagline: "Design Custom Boats, Survive Dangerous Journeys & Collect Treasure",
+  description: "Build A Boat For Treasure Wiki provides Roblox codes, building guides, treasure maps, block information, and tips to create powerful boats and complete adventures.",
+  url: process.env.NEXT_PUBLIC_SITE_URL || "https://buildaboatfortreasure-wiki.top",
+  supportEmail: `support@${new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://buildaboatfortreasure-wiki.top").hostname.replace(/^www\./, "")}`,
+  gameUrl: "https://www.roblox.com/games/537413528/Build-A-Boat-For-Treasure",
+  heroVideoId: "t75i6RCwXRo", // Build A Boat For Treasure - Boat of the Year showcase
   social: {
-    discord: "https://discord.gg/roblox",
-    youtube: "https://www.youtube.com/@roblox",
+    discord: "https://www.reddit.com/r/BuildABoatForTreasure/",
+    youtube: "https://www.youtube.com/results?search_query=Build+A+Boat+For+Treasure",
   },
   locales: ["en", "es", "pt", "de", "fr"],
   defaultLocale: "en",
