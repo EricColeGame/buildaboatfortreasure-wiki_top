@@ -1,0 +1,143 @@
+export const metadata = {
+  title: "Logikgatter in Build a Boat for Treasure: Komplette Verkabelungs- & Automatisierungsanleitung",
+  description: "Erfahre, wie Logikgatter in Build a Boat for Treasure funktionieren: AND-, OR-, NOT-, XOR-Verkabelung, Schritt-für-Schritt-Aufbauten und Automatisierungsbauten, die wirklich fahren.",
+  category: "mechanics",
+  date: "2026-10-04",
+}
+
+## Warum Logikgatter das wahre Endgame in Build a Boat for Treasure sind
+
+Du kannst hundert Blöcke aneinanderkleben und trotzdem in jedem Durchlauf an derselben Stage sinken. Der Unterschied zwischen einem schwimmenden Holzhaufen und einer Maschine, die tatsächlich den Schatz erreicht, ist meistens die Verkabelung — und genau hier kommen Logikgatter in Build a Boat for Treasure ins Spiel. Sie lassen einen Knopf, einen Sensor oder eine Druckplatte automatisch etwas anderes auslösen: eine Tür, die sich abdichtet, bevor Wasser eindringt, eine Kanonenanordnung, die von selbst feuert, ein Ballonregal, das in dem Moment ausfährt, in dem du den Fluss erreichst.
+
+Wenn du jemals gesehen hast, wie das Boot eines anderen Spielers an einer Gefahr vorbeigeglitten ist, während deins umgekippt ist, ist Logik oft der Grund. Diese Anleitung erklärt Logikgatter in Build a Boat for Treasure in verständlicher Sprache — was jedes Gatter macht, wie du eines verkabelst, ohne deinen Rumpf zu zerstören, und welche Automatisierungsprojekte das Gold wirklich wert sind, das du dafür ausgibst.
+
+Eine Warnung vorab: Build a Boat for Treasure wird regelmäßig aktualisiert, daher können Gatternamen, Preise und Menü-Tabs sich zwischen Versionen ändern. Betrachte die folgenden Aufbauten als Muster zum Anpassen, nicht als Patch Notes.
+
+### Was zählt als "Logik"-Block?
+
+Im Baumenü fallen Logikblöcke im Allgemeinen in drei Gruppen:
+
+- **Signalquellen** — Knöpfe, Hebel, Druckplatten, Sensoren, Timer
+- **Prozessoren** — die Gatter selbst (AND, OR, NOT, XOR und ihre invertierten Varianten)
+- **Ausgänge** — alles, was mit Strom versorgt wird: Türen, Triebwerke, Lichter, Kanonen, Motoren, Ballons
+
+Ein Gatter macht allein gar nichts. Es sitzt zwischen einer Quelle und einem Ausgang und entscheidet, *wann* Strom fließen darf. Diese eine Idee ist das gesamte Fundament der Automatisierung in diesem Spiel.
+
+## Logikgatter-Spickzettel: Was jedes Gatter tatsächlich macht
+
+Jedes Gatter liest einen oder mehrere Eingänge (an oder aus) und erzeugt einen Ausgang (an oder aus). Das ist die ganze Sprache. Sobald du die Wahrheitstabellen unten verinnerlicht hast, fühlen sich die meisten Builds nicht mehr wie Rätselraten an.
+
+| Gatter | Ausgang schaltet EIN, wenn... | Beste Verwendung auf einem Boot |
+|---|---|---|
+| AND | Jeder verbundene Eingang EIN ist | Zwei-Tasten-Start, Sicherheitsverriegelungen |
+| OR | Mindestens ein Eingang EIN ist | Mehrere Auslöser für eine Tür |
+| NOT | Sein Eingang AUS ist | "Offen im Ruhezustand, schließen bei Scharfschaltung" |
+| XOR | Genau ein Eingang EIN ist | Zwei-Wege-Schalter, Umschaltlichter |
+| NAND | Nicht jeder Eingang EIN ist | Ausfallsichere Freigaben |
+| NOR | Kein Eingang EIN ist | Sensoren für den Ruhezustand |
+| XNOR | Beide Eingänge übereinstimmen | Zwei-Piloten-Bestätigungssysteme |
+
+**Tipp aus Spielerfahrung:** Anfänger brauchen wirklich nur AND, OR und NOT. Die invertierten Gatter (NAND, NOR, XNOR) sind Abkürzungen — du kannst dasselbe Verhalten reproduzieren, indem du ein Basisgatter mit einem NOT verkettest, aber das kostet zusätzliche Blöcke und zusätzliche Verkabelung, was bei einem Gewichtslimit für dein Boot wichtig ist.
+
+### Eine Wahrheitstabelle ohne Fachjargon lesen
+
+Eine Wahrheitstabelle ist einfach eine Liste aller möglichen Eingangskombinationen und des daraus resultierenden Ausgangs. Für ein AND-Gatter mit zwei Eingängen gibt es vier Zeilen: aus/aus, aus/ein, ein/aus und ein/ein. Nur die letzte Zeile erzeugt Strom. Wenn du diese vier Zeilen für deinen eigenen Build ausfüllen kannst, weißt du bereits, welches Gatter du brauchst. Skizziere es auf Papier, bevor du einen einzigen Block platzierst — allein diese Gewohnheit verhindert die meisten Neuaufbauten.
+
+## Wie du Logikgatter in Build a Boat for Treasure verkabelst
+
+Die Verkabelung ist der Punkt, an dem die meisten Spieler bei Logikgattern in Build a Boat for Treasure aufgeben. Die gute Nachricht: Der Prozess ist mechanisch: platzieren, verbinden, testen. Die schlechte Nachricht: Ein falsch verlegter Draht kann ein ganzes System verkehrt herum arbeiten lassen, und verkehrt herum arbeitende Systeme sind der Grund, warum Boote sinken.
+
+| Schritt | Aktion | Was du prüfen solltest |
+|---|---|---|
+| 1 | Platziere zuerst deinen Ausgangsblock (Tür, Triebwerk, Licht) | Bestätige, dass er mit direktem Knopfdruck funktioniert |
+| 2 | Platziere den Gatterblock in der Nähe des Ausgangs | Halte Kabellängen kurz und sichtbar |
+| 3 | Verbinde den Ausgang des Gatters mit dem stromversorgten Block | Ausgangsports haben normalerweise eine andere Farbe |
+| 4 | Verbinde deine Quelle (Knopf, Hebel, Sensor) mit dem Eingang des Gatters | Eine Quelle pro Eingangsport, außer du willst OR-Verhalten |
+| 5 | Teste jeden Eingang einzeln | Schalte jeweils nur eine Quelle um |
+| 6 | Teste Kombinationen | Vergleiche mit der skizzierten Wahrheitstabelle |
+| 7 | Beschrifte oder markiere die Kabel farblich | Dein zukünftiges Ich wird dankbar sein |
+
+### Baue ein Testgerüst, bevor du ein Boot baust
+
+Community-Berichte empfehlen durchweg, ein kleines "Testfloß" zu bauen — eine flache Plattform mit je einem Gatter, einem Knopf, einem Hebel und einer Lampe — bevor du irgendetwas in einen echten Build verkabelst. Zehn Minuten auf einem Testgerüst sparen eine Stunde Debugging in Stage sechs, wenn ein einziger Fehlschuss den Verlust deines gesamten Durchlaufs bedeutet.
+
+### Halte die Verkabelung lesbar
+
+Logik-Builds werden schnell unordentlich. Verlege Kabel entlang des Rumpfs statt durch die Mitte deines Decks und lass eine Lücke zwischen Kabelschicht und Blockschicht, damit du jede Verbindung mit dem Auge nachverfolgen kannst. Wenn etwas kaputtgeht — und das wird es — willst du den Fehler in Sekunden finden, nicht in Minuten.
+
+## 5 Automatisierungsbauten, die den Aufwand rechtfertigen
+
+Das sind die Projekte, die Logikgatter in Build a Boat for Treasure das Gold wert machen, ungefähr nach Schwierigkeit geordnet.
+
+| Build | Benötigte Blöcke | Schwierigkeit | Warum es wichtig ist |
+|---|---|---|---|
+| Selbstschließende Luftschleuse | 2 Türen, Druckplatte, NOT-Gatter | Einfach | Verhindert, dass Wasser deine Kabine flutet |
+| Zwei-Knopf-Motorstart | 2 Knöpfe, AND-Gatter, Triebwerk | Einfach | Verhindert versehentliche Starts |
+| Umschaltlicht-System | Knopf, XOR-Gatter, Lampe | Einfach–Mittel | Ein Knopf für An und Aus |
+| Näherungs-Kanonenarray | Sensor, AND-Gatter, Timer, Kanonen | Mittel | Feuert nur auf echte Bedrohungen |
+| Selbstzerstörungs-Rettungskapsel | Knopf, Timer, NOT-Gatter, Triebwerke | Mittel–Schwer | Rettet einen laufenden Schatzdurchlauf |
+
+### Die Luftschleuse, Schritt für Schritt
+
+1. Platziere eine innere Tür und eine äußere Tür mit einem kleinen abgedichteten Raum dazwischen.
+2. Setze eine Druckplatte in diesen Raum.
+3. Verkabele die Platte über ein **NOT**-Gatter mit der inneren Tür, sodass die innere Tür schließt, während du auf der Platte stehst.
+4. Verkabele die Platte direkt mit der äußeren Tür.
+5. Teste es: Steig hinein, die innere Tür schließt, die äußere Tür öffnet, und das Wasser bleibt draußen.
+
+### Der Zwei-Knopf-Start
+
+Verkabele zwei separate Knöpfe mit einem **AND**-Gatter und verbinde dann den Ausgang des Gatters mit deinem Haupttriebwerk. Der Motor zündet nur, wenn beide Knöpfe gedrückt sind. Auf einem geteilten Boot in einem öffentlichen Server ist das der einfachste Weg, einen Passagier daran zu hindern, dich direkt in einen Felsen zu starten.
+
+### Das Näherungs-Kanonenarray
+
+Ein Sensor speist ein AND-Gatter, das AND-Gatter speist einen Timer, und der Timer feuert die Kanonen. Der Sensor allein würde auf Wellen und Trümmer schießen; das AND-Gatter plus Timer verengt den Auslöser auf etwas, das es wert ist, beschossen zu werden. Das ist das klarste Beispiel dafür, warum Gatter einfache Schalter schlagen.
+
+## Häufige Logikgatter-Fehler (und wie du sie behebst)
+
+Die meisten Fehler bei Logikgattern in Build a Boat for Treasure lassen sich auf eine Handvoll vorhersehbarer Ursachen zurückführen. Diagnostiziere mit der Tabelle unten, bevor du anfängst, Blöcke von deinem Rumpf abzureißen.
+
+| Symptom | Wahrscheinliche Ursache | Lösung |
+|---|---|---|
+| Ausgang schaltet nie ein | Das Gatter selbst hat keinen Strom | Bestätige, dass der Gatterblock mit Strom versorgt wird |
+| Ausgang ist immer an | Du hast NOT verwendet, wo ein Puffer nötig war | Tausche es gegen eine direkte Verbindung oder ein OR-Gatter |
+| Tür öffnet, wenn sie schließen sollte | Die Eingangslogik ist invertiert | Füge ein NOT-Gatter hinzu oder entferne eines |
+| Funktioniert solo, scheitert im Multiplayer | Signal-Timing oder Server-Lag | Füge eine kurze Timer-Verzögerung hinzu |
+| Nur einer von zwei Knöpfen funktioniert | Knöpfe sind an separate Eingänge verkabelt | Stelle sicher, dass beide dasselbe Gatter speisen |
+
+**Community-Berichte** nennen außerdem "Kabelsalat" als Grund Nummer eins, warum Logik-Builds aufgegeben werden. Wenn ein System mehr als ungefähr sechs Verbindungen hat, zeichne es zuerst auf. Eine Servietten-Skizze schlägt Trial and Error jedes einzelne Mal.
+
+## Logikgatter vs. einfache Schalter: Wann lohnt sich Komplexität?
+
+Nicht jeder Build braucht Logikgatter in Build a Boat for Treasure, und zu wissen, wann man sie weglässt, ist selbst eine Fähigkeit.
+
+| Situation | Einfacher Schalter reicht | Logikgatter ist besser |
+|---|---|---|
+| Eine einzelne Tür öffnen | Ja | Nein |
+| Eine Tür nur während der Fahrt öffnen | Nein | Ja (Sensor + AND) |
+| Eine Kanone abfeuern | Ja | Nein |
+| Nur auf feindliche Spieler feuern | Nein | Ja (Sensor + AND + Timer) |
+| Ein Licht einschalten | Ja | Nein |
+| Ein Licht mit einem Knopf umschalten | Nein | Ja (XOR) |
+
+Die Faustregel: Wenn dein Build die Wörter **"nur"** oder **"außer"** braucht, brauchst du ein Gatter. Wenn es nur "an" braucht, erledigt ein Hebel den Job für einen Bruchteil der Blöcke.
+
+## FAQ
+
+**Muss ich Logikgatter kaufen, oder sind sie kostenlos?**
+Die meisten Logik- und Mechanismusblöcke werden im Laufe des Fortschritts freigeschaltet und mit Gold gekauft, ähnlich wie andere Blöcke. Prüfe den Logik- oder Mechanismus-Tab im Baumenü für die aktuelle Freischaltreihenfolge und den Preis — das Shop-Layout ändert sich zwischen Updates.
+
+**Was ist der einfachste Logikgatter-Aufbau in Build a Boat for Treasure für Anfänger?**
+Beginne mit einer Druckplatte, die über ein NOT-Gatter mit einer einzelnen Tür verkabelt ist. Das lehrt Eingang, Invertierung und Ausgang in einem Projekt, und es dauert etwa zwei Minuten, es auf einem Testgerüst aufzubauen.
+
+**Kann ich mehrere Gatter in einem System kombinieren?**
+Ja, und genau dort lebt echte Automatisierung. Ein häufiges Muster ist Sensor → AND-Gatter → Timer → Kanone. Jede Stufe verengt die Bedingung, bis der Ausgang nur dann feuert, wenn du es wirklich willst.
+
+**Warum funktioniert mein Logik-Build in einem privaten Server, aber in öffentlichen scheitert er?**
+Timing. In stark besuchten Servern können Sensoren und Timer ein Frame zu spät registrieren, sodass ein System, das davon abhängt, dass zwei Ereignisse exakt im selben Moment passieren, fehlauslösen kann. Eine kleine Verzögerung hinzuzufügen behebt das normalerweise.
+
+## Abschließende Gedanken
+
+Logikgatter in Build a Boat for Treasure sind kein Gimmick — sie sind der Unterschied zwischen einem Boot, das den Fluss übersteht, und einem Boot, das den Schatz erreicht. Lerne zuerst AND, OR und NOT, baue ein günstiges Testgerüst und füge Komplexität nur hinzu, wenn ein einfacher Schalter den Job wirklich nicht erledigen kann. Sobald die Grundlagen klicken, wirst du in jedem Rumpf, den du entwirfst, Automatisierungsmöglichkeiten erkennen.
+
+Für die offizielle Spielseite, aktuelle Updates und Community-Builds besuche [Build a Boat for Treasure auf Roblox](https://www.roblox.com/games/537413528/Build-A-Boat-For-Treasure).

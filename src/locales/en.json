@@ -9,7 +9,14 @@
   "nav": {
     "home": "Home",
     "menu": "Menu",
-    "toggleTheme": "Toggle theme"
+    "toggleTheme": "Toggle theme",
+    "guide": "Guide",
+    "codes": "Codes",
+    "builds": "Builds",
+    "items": "Items",
+    "mechanics": "Mechanics",
+    "quests": "Quests",
+    "community": "Community"
   },
   "home": {
     "meta": {
@@ -428,7 +435,34 @@
       "secondary": "Play on Roblox"
     }
   },
-  "bosses": {},
+  "guide": {
+    "overviewTitle": "Build A Boat For Treasure Guide",
+    "overviewDescription": "Beginner guides, tips and step-by-step walkthroughs to help you build, sail and survive in Build A Boat For Treasure."
+  },
+  "codes": {
+    "overviewTitle": "Build A Boat For Treasure Codes",
+    "overviewDescription": "Find out how codes and rewards really work in Build A Boat For Treasure, and how to earn free gold the legit way."
+  },
+  "builds": {
+    "overviewTitle": "Build A Boat For Treasure Builds",
+    "overviewDescription": "Boat ideas, blueprints, flying machines and mech tutorials for every Build A Boat For Treasure builder."
+  },
+  "items": {
+    "overviewTitle": "Build A Boat For Treasure Items",
+    "overviewDescription": "Browse blocks, tools, treasure chests and the strongest materials in Build A Boat For Treasure."
+  },
+  "mechanics": {
+    "overviewTitle": "Build A Boat For Treasure Mechanics",
+    "overviewDescription": "Learn gold farming, block strength, logic gates, steering and flying mechanics in Build A Boat For Treasure."
+  },
+  "quests": {
+    "overviewTitle": "Build A Boat For Treasure Quests",
+    "overviewDescription": "Walkthroughs for quests, secret quests, events and portal puzzles in Build A Boat For Treasure."
+  },
+  "community": {
+    "overviewTitle": "Build A Boat For Treasure Community",
+    "overviewDescription": "Release dates, secrets, Discord and Reddit links, funny moments and videos from the Build A Boat For Treasure community."
+  },
   "shared": {
     "wikiNavigation": "Wiki Navigation",
     "activeCodes": "Active Codes",
@@ -457,12 +491,11 @@
     "playGame": "Play Build A Boat For Treasure on Roblox",
     "officialDiscord": "Community Reddit",
     "officialYoutube": "YouTube Gameplay Videos",
-    "vvBuilder": "Boat Building Guides",
     "beginnerGuide": "Beginner Guide",
-    "raceGuides": "Race Guides",
-    "bossGuides": "Boss Guides",
     "buildGuide": "Build Guide",
     "privacyPolicy": "Privacy Policy",
-    "termsOfService": "Terms of Service"
+    "termsOfService": "Terms of Service",
+    "codes": "Codes",
+    "items": "Items"
   }
 }

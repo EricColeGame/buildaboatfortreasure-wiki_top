@@ -1,0 +1,143 @@
+export const metadata = {
+  title: "Portas Lógicas no Build a Boat for Treasure: Guia Completo de Fiação e Automação",
+  description: "Aprenda como funcionam as portas lógicas do Build a Boat for Treasure: fiação de AND, OR, NOT e XOR, montagens passo a passo e construções de automação que realmente navegam.",
+  category: "mechanics",
+  date: "2026-10-04",
+}
+
+## Por Que as Portas Lógicas São o Verdadeiro Endgame no Build a Boat for Treasure
+
+Você pode colar cem blocos juntos e ainda afundar na mesma fase a cada tentativa. A diferença entre uma pilha flutuante de madeira e uma máquina que realmente chega ao tesouro geralmente é a fiação — e é exatamente aí que entram as portas lógicas do Build a Boat for Treasure. Elas permitem que um botão, um sensor ou uma placa de pressão acione outra coisa automaticamente: uma porta que se veda antes de a água entrar, um conjunto de canhões que dispara sozinho, um suporte de balões que se abre no instante em que você chega ao rio.
+
+Se você já viu o barco de outro jogador passar deslizando por um perigo enquanto o seu capotava, a lógica costuma ser o motivo. Este guia explica as portas lógicas do Build a Boat for Treasure em linguagem simples — o que cada porta faz, como fazer a fiação de uma sem destruir o seu casco e quais projetos de automação realmente valem o ouro que você gasta neles.
+
+Um aviso antes de começarmos: o Build a Boat for Treasure é atualizado com frequência, então os nomes das portas, os preços e as abas do menu podem mudar entre as versões. Trate as montagens abaixo como padrões a adaptar, não como notas de atualização.
+
+### O que conta como um bloco de "lógica"?
+
+No menu de construção, os blocos de lógica geralmente se dividem em três grupos:
+
+- **Fontes de sinal** — botões, alavancas, placas de pressão, sensores, temporizadores
+- **Processadores** — as próprias portas (AND, OR, NOT, XOR e suas primas invertidas)
+- **Saídas** — qualquer coisa energizada: portas, propulsores, luzes, canhões, motores, balões
+
+Uma porta não faz nada por conta própria. Ela fica entre uma fonte e uma saída e decide *quando* a energia pode fluir. Essa única ideia é toda a base da automação neste jogo.
+
+## Guia Rápido das Portas Lógicas: O Que Cada Porta Realmente Faz
+
+Toda porta lê uma ou mais entradas (ligado ou desligado) e produz uma saída (ligado ou desligado). Essa é toda a linguagem. Depois que você internalizar as tabelas-verdade abaixo, a maioria das construções deixa de parecer adivinhação.
+
+| Porta | A saída LIGA quando... | Melhor uso em um barco |
+|---|---|---|
+| AND | Toda entrada conectada está LIGADA | Lançamento com duas chaves, travas de segurança |
+| OR | Pelo menos uma entrada está LIGADA | Vários gatilhos para uma única porta |
+| NOT | Sua entrada está DESLIGADA | "Abrir quando inativo, fechar quando armado" |
+| XOR | Exatamente uma entrada está LIGADA | Interruptores de dois sentidos, luzes de alternância |
+| NAND | Nem toda entrada está LIGADA | Liberações à prova de falhas |
+| NOR | Nenhuma entrada está LIGADA | Sensores de estado inativo |
+| XNOR | As duas entradas coincidem | Sistemas de confirmação de dois pilotos |
+
+**Dica de experiência de jogador:** iniciantes na verdade só precisam de AND, OR e NOT. As portas invertidas (NAND, NOR, XNOR) são atalhos — você pode reproduzir o mesmo comportamento encadeando uma porta básica em um NOT, mas isso custa blocos extras e fiação extra, o que importa quando o seu barco tem limite de peso.
+
+### Lendo uma tabela-verdade sem o jargão
+
+Uma tabela-verdade é apenas uma lista de todas as combinações possíveis de entrada e a saída resultante. Para uma porta AND de duas entradas há quatro linhas: desligado/desligado, desligado/ligado, ligado/desligado e ligado/ligado. Apenas a última linha produz energia. Se você conseguir preencher essas quatro linhas para a sua própria construção, já sabe qual porta precisa. Esboce no papel antes de colocar um único bloco — só esse hábito evita a maioria das reconstruções.
+
+## Como Fazer a Fiação das Portas Lógicas no Build a Boat for Treasure
+
+A fiação é onde a maioria dos jogadores desiste das portas lógicas do Build a Boat for Treasure. A boa notícia é que o processo é mecânico: colocar, conectar, testar. A má notícia é que um fio mal roteado pode fazer um sistema inteiro se comportar ao contrário, e sistemas ao contrário são o motivo de barcos afundarem.
+
+| Passo | Ação | O que verificar |
+|---|---|---|
+| 1 | Coloque primeiro o bloco de saída (porta, propulsor, luz) | Confirme que ele funciona com um pressionar direto de botão |
+| 2 | Coloque o bloco da porta perto da saída | Mantenha os trechos de fiação curtos e visíveis |
+| 3 | Conecte a saída da porta ao bloco energizado | As portas de saída geralmente têm uma cor diferente |
+| 4 | Conecte sua fonte (botão, alavanca, sensor) à entrada da porta | Uma fonte por porta de entrada, a menos que você queira comportamento OR |
+| 5 | Teste cada entrada individualmente | Acione uma fonte de cada vez |
+| 6 | Teste as combinações | Compare com a tabela-verdade que você esboçou |
+| 7 | Rotule ou codifique os fios por cor | O você do futuro vai agradecer |
+
+### Construa uma bancada de teste antes de construir um barco
+
+Relatos da comunidade recomendam consistentemente fazer uma pequena "balsa de teste" — uma plataforma plana carregando uma de cada porta, um botão, uma alavanca e uma lâmpada — antes de fiar qualquer coisa em uma construção real. Dez minutos em uma bancada de teste economizam uma hora de depuração na fase seis, quando um único disparo errado significa perder a sua tentativa inteira.
+
+### Mantenha a fiação legível
+
+Construções de lógica ficam bagunçadas rápido. Passe os fios ao longo do casco em vez de atravessar o meio do seu convés, e deixe um espaço entre a camada de fios e a camada de blocos para que você possa rastrear qualquer conexão a olho nu. Quando algo quebrar — e vai quebrar — você quer encontrar o defeito em segundos, não em minutos.
+
+## 5 Construções de Automação Que Justificam o Esforço
+
+Estes são os projetos que fazem as portas lógicas do Build a Boat for Treasure valerem o ouro, classificados aproximadamente por dificuldade.
+
+| Construção | Blocos necessários | Dificuldade | Por que importa |
+|---|---|---|---|
+| Eclusa de fechamento automático | 2 portas, placa de pressão, porta NOT | Fácil | Impede que a água inunde sua cabine |
+| Partida do motor com dois botões | 2 botões, porta AND, propulsor | Fácil | Evita lançamentos acidentais |
+| Sistema de luz de alternância | Botão, porta XOR, lâmpada | Fácil–Médio | Um botão para ligar e desligar |
+| Conjunto de canhões de proximidade | Sensor, porta AND, temporizador, canhões | Médio | Dispara apenas contra ameaças reais |
+| Cápsula de escape autodestrutiva | Botão, temporizador, porta NOT, propulsores | Médio–Difícil | Salva uma tentativa de tesouro em andamento |
+
+### A eclusa, passo a passo
+
+1. Coloque uma porta interna e uma porta externa com uma pequena sala vedada entre elas.
+2. Coloque uma placa de pressão dentro dessa sala.
+3. Fie a placa através de uma porta **NOT** até a porta interna, de modo que a porta interna se feche enquanto você estiver em cima da placa.
+4. Fie a placa diretamente à porta externa.
+5. Teste: entre, a porta interna se fecha, a porta externa se abre e a água fica do lado de fora.
+
+### A partida com dois botões
+
+Fie dois botões separados em uma porta **AND**, depois fie a saída da porta ao seu propulsor principal. O motor só dispara quando os dois botões são pressionados. Em um barco compartilhado em um servidor público, essa é a maneira mais simples de impedir que um passageiro lance você direto contra uma pedra.
+
+### O conjunto de canhões de proximidade
+
+Um sensor alimenta uma porta AND, a porta AND alimenta um temporizador, e o temporizador dispara os canhões. O sensor sozinho atiraria em ondas e destroços; a porta AND mais o temporizador restringem o gatilho a algo que vale a pena atingir. Este é o exemplo mais claro de por que as portas superam os interruptores simples.
+
+## Erros Comuns com Portas Lógicas (e Como Corrigi-los)
+
+A maioria das falhas com portas lógicas do Build a Boat for Treasure se resume a um punhado de causas previsíveis. Diagnostique com a tabela abaixo antes de começar a arrancar blocos do seu casco.
+
+| Sintoma | Causa provável | Correção |
+|---|---|---|
+| A saída nunca liga | A própria porta não tem energia | Confirme que o bloco da porta está energizado |
+| A saída está sempre ligada | Você usou NOT onde era necessário um buffer | Troque por um fio direto ou uma porta OR |
+| A porta abre quando deveria fechar | A lógica de entrada está invertida | Adicione ou remova uma porta NOT |
+| Funciona sozinho, falha no multijogador | Sincronização do sinal ou lag do servidor | Adicione um pequeno atraso no temporizador |
+| Apenas um dos dois botões funciona | Botões fiados em entradas separadas | Confirme que ambos alimentam a mesma porta |
+
+**Relatos da comunidade** também apontam o "espaguete de fios" como o motivo número um de construções lógicas serem abandonadas. Se um sistema tem mais de aproximadamente seis conexões, faça um diagrama primeiro. Um esboço em um guardanapo vence a tentativa e erro em todas as vezes.
+
+## Portas Lógicas vs. Interruptores Simples: Quando a Complexidade Vale a Pena?
+
+Nem toda construção precisa das portas lógicas do Build a Boat for Treasure, e saber quando dispensá-las é uma habilidade por si só.
+
+| Situação | Um interruptor simples basta | Uma porta lógica é melhor |
+|---|---|---|
+| Abrir uma única porta | Sim | Não |
+| Abrir uma porta apenas enquanto se move | Não | Sim (sensor + AND) |
+| Disparar um canhão | Sim | Não |
+| Disparar apenas contra jogadores hostis | Não | Sim (sensor + AND + temporizador) |
+| Acender uma luz | Sim | Não |
+| Alternar uma luz com um botão | Não | Sim (XOR) |
+
+A regra geral: se a sua construção precisa da palavra **"apenas"** ou **"a menos que"**, você precisa de uma porta. Se ela só precisa de "ligado", uma alavanca dá conta do recado por uma fração dos blocos.
+
+## Perguntas Frequentes
+
+**Preciso comprar as portas lógicas, ou elas são gratuitas?**
+A maioria dos blocos de lógica e mecanismos é desbloqueada conforme você progride e comprada com ouro, semelhante a outros blocos. Verifique a aba de lógica ou mecanismos do menu de construção para saber a ordem de desbloqueio e o preço atuais — o layout da loja muda entre as atualizações.
+
+**Qual é a configuração mais simples de portas lógicas do Build a Boat for Treasure para um iniciante?**
+Comece com uma placa de pressão fiada através de uma porta NOT a uma única porta. Ela ensina entrada, inversão e saída em um único projeto, e leva cerca de dois minutos para montar em uma bancada de teste.
+
+**Posso combinar várias portas em um único sistema?**
+Sim, e é aí que mora a automação de verdade. Um padrão comum é sensor → porta AND → temporizador → canhão. Cada etapa restringe a condição até que a saída dispare apenas quando você realmente quer.
+
+**Por que a minha construção lógica funciona em um servidor privado mas falha nos públicos?**
+Sincronização. Em servidores movimentados, sensores e temporizadores podem registrar um quadro atrasados, então um sistema que depende de dois eventos acontecendo no mesmo instante pode disparar errado. Adicionar um pequeno atraso geralmente resolve.
+
+## Considerações Finais
+
+As portas lógicas do Build a Boat for Treasure não são um truque — elas são a diferença entre um barco que sobrevive ao rio e um barco que alcança o tesouro. Aprenda AND, OR e NOT primeiro, construa uma bancada de teste barata e adicione complexidade só quando um interruptor simples realmente não der conta. Assim que o básico fizer sentido, você começará a enxergar oportunidades de automação em cada casco que projetar.
+
+Para a página oficial do jogo, atualizações atuais e construções da comunidade, visite [Build a Boat for Treasure no Roblox](https://www.roblox.com/games/537413528/Build-A-Boat-For-Treasure).

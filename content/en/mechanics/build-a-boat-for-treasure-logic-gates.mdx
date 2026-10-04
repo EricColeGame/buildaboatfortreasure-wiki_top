@@ -1,0 +1,143 @@
+export const metadata = {
+  title: "Build a Boat for Treasure Logic Gates: Complete Wiring & Automation Guide",
+  description: "Learn how build a boat for treasure logic gates work: AND, OR, NOT, XOR wiring, step-by-step setups, and automation builds that actually sail.",
+  category: "mechanics",
+  date: "2026-10-04",
+}
+
+## Why Logic Gates Are the Real Endgame in Build a Boat for Treasure
+
+You can glue a hundred blocks together and still sink on the same stage every run. The difference between a floating pile of wood and a machine that actually reaches the treasure is usually wiring — and that is exactly where build a boat for treasure logic gates come in. They let a button, a sensor, or a pressure plate trigger something else automatically: a door that seals before water pours in, a cannon array that fires on its own, a balloon rack that deploys the instant you hit the river.
+
+If you have ever watched another player's boat glide past a hazard while yours flipped over, logic is often the reason. This guide explains build a boat for treasure logic gates in plain English — what each gate does, how to wire one without wrecking your hull, and which automation projects are actually worth the gold you spend on them.
+
+One caveat before we start: Build a Boat for Treasure gets updated regularly, so gate names, prices, and menu tabs can shift between versions. Treat the setups below as patterns to adapt, not as patch notes.
+
+### What counts as a "logic" block?
+
+In the build menu, logic blocks generally fall into three groups:
+
+- **Signal sources** — buttons, levers, pressure plates, sensors, timers
+- **Processors** — the gates themselves (AND, OR, NOT, XOR, and their inverted cousins)
+- **Outputs** — anything powered: doors, thrusters, lights, cannons, motors, balloons
+
+A gate does nothing on its own. It sits between a source and an output and decides *when* power is allowed to flow. That single idea is the entire foundation of automation in this game.
+
+## Logic Gate Cheat Sheet: What Each Gate Actually Does
+
+Every gate reads one or more inputs (on or off) and produces one output (on or off). That is the whole language. Once you internalize the truth tables below, most builds stop feeling like guesswork.
+
+| Gate | Output turns ON when... | Best use on a boat |
+|---|---|---|
+| AND | Every connected input is ON | Two-key launch, safety interlocks |
+| OR | At least one input is ON | Multiple triggers for one door |
+| NOT | Its input is OFF | "Open when idle, close when armed" |
+| XOR | Exactly one input is ON | Two-way switches, toggle lights |
+| NAND | Not every input is ON | Fail-safe releases |
+| NOR | No input is ON | Idle-state sensors |
+| XNOR | Both inputs match | Two-pilot confirmation systems |
+
+**Player experience tip:** beginners really only need AND, OR, and NOT. The inverted gates (NAND, NOR, XNOR) are shortcuts — you can reproduce the same behavior by chaining a basic gate into a NOT, but it costs extra blocks and extra wiring, which matters when your boat has a weight limit.
+
+### Reading a truth table without the jargon
+
+A truth table is just a list of every possible input combination and the resulting output. For a two-input AND gate there are four rows: off/off, off/on, on/off, and on/on. Only the final row produces power. If you can fill in those four rows for your own build, you already know which gate you need. Sketch it on paper before you place a single block — this habit alone prevents most rebuilds.
+
+## How to Wire Logic Gates in Build a Boat for Treasure
+
+Wiring is where most players give up on build a boat for treasure logic gates. The good news is that the process is mechanical: place, connect, test. The bad news is that one misrouted wire can make an entire system behave backwards, and backwards systems are how boats sink.
+
+| Step | Action | What to check |
+|---|---|---|
+| 1 | Place your output block first (door, thruster, light) | Confirm it works with a direct button press |
+| 2 | Place the gate block near the output | Keep wiring runs short and visible |
+| 3 | Connect the gate's output to the powered block | Output ports are usually a different color |
+| 4 | Connect your source (button, lever, sensor) to the gate's input | One source per input port unless you want OR behavior |
+| 5 | Test each input individually | Toggle one source at a time |
+| 6 | Test combinations | Compare against the truth table you sketched |
+| 7 | Label or color-code the wires | Future you will be grateful |
+
+### Build a test rig before you build a boat
+
+Community reports consistently recommend making a small "test barge" — a flat platform carrying one of each gate, a button, a lever, and a lamp — before wiring anything into a real build. Ten minutes on a test rig saves an hour of debugging at stage six, when a single misfire means losing your entire run.
+
+### Keep the wiring readable
+
+Logic builds get messy fast. Route wires along the hull instead of through the middle of your deck, and leave a gap between the wire layer and the block layer so you can trace any connection by eye. When something breaks — and it will — you want to find the fault in seconds, not minutes.
+
+## 5 Automation Builds That Justify the Effort
+
+These are the projects that make build a boat for treasure logic gates worth the gold, ranked roughly by difficulty.
+
+| Build | Blocks needed | Difficulty | Why it matters |
+|---|---|---|---|
+| Auto-closing airlock | 2 doors, pressure plate, NOT gate | Easy | Stops water flooding your cabin |
+| Dual-button engine start | 2 buttons, AND gate, thruster | Easy | Prevents accidental launches |
+| Toggle light system | Button, XOR gate, lamp | Easy–Medium | One button for on and off |
+| Proximity cannon array | Sensor, AND gate, timer, cannons | Medium | Fires only at real threats |
+| Self-destruct escape pod | Button, timer, NOT gate, thrusters | Medium–Hard | Saves a treasure run in progress |
+
+### The airlock, step by step
+
+1. Place an inner door and an outer door with a small sealed room between them.
+2. Put a pressure plate inside that room.
+3. Wire the plate through a **NOT** gate to the inner door, so the inner door closes while you stand on the plate.
+4. Wire the plate directly to the outer door.
+5. Test it: step in, the inner door shuts, the outer door opens, and water stays outside.
+
+### The dual-button start
+
+Wire two separate buttons into an **AND** gate, then wire the gate's output to your main thruster. The engine only fires when both buttons are pressed. On a shared boat in a public server, this is the simplest way to stop a passenger from launching you straight into a rock.
+
+### The proximity cannon array
+
+A sensor feeds an AND gate, the AND gate feeds a timer, and the timer fires the cannons. The sensor alone would shoot at waves and debris; the AND gate plus timer narrows the trigger to something worth shooting at. This is the clearest example of why gates beat plain switches.
+
+## Common Logic Gate Mistakes (and How to Fix Them)
+
+Most build a boat for treasure logic gates failures come down to a handful of predictable causes. Diagnose with the table below before you start tearing blocks off your hull.
+
+| Symptom | Likely cause | Fix |
+|---|---|---|
+| Output never turns on | The gate itself has no power | Confirm the gate block is powered |
+| Output is always on | You used NOT where a buffer was needed | Swap in a direct wire or OR gate |
+| Door opens when it should close | Input logic is inverted | Add or remove a NOT gate |
+| Works solo, fails in multiplayer | Signal timing or server lag | Add a short timer delay |
+| Only one of two buttons works | Buttons wired to separate inputs | Confirm both feed the same gate |
+
+**Community reports** also flag "wire spaghetti" as the number one reason logic builds get abandoned. If a system has more than roughly six connections, diagram it first. A napkin sketch beats trial and error every single time.
+
+## Logic Gates vs. Plain Switches: When Is Complexity Worth It?
+
+Not every build needs build a boat for treasure logic gates, and knowing when to skip them is a skill in itself.
+
+| Situation | Plain switch is enough | Logic gate is better |
+|---|---|---|
+| Opening a single door | Yes | No |
+| Opening a door only while moving | No | Yes (sensor + AND) |
+| Firing one cannon | Yes | No |
+| Firing only at hostile players | No | Yes (sensor + AND + timer) |
+| Turning a light on | Yes | No |
+| Toggling a light with one button | No | Yes (XOR) |
+
+The rule of thumb: if your build needs the word **"only"** or **"unless"**, you need a gate. If it just needs "on," a lever will do the job for a fraction of the blocks.
+
+## FAQ
+
+**Do I have to buy logic gates, or are they free?**
+Most logic and mechanism blocks are unlocked as you progress and purchased with gold, similar to other blocks. Check the build menu's logic or mechanism tab for the current unlock order and price — the shop layout does change between updates.
+
+**What is the simplest build a boat for treasure logic gates setup for a beginner?**
+Start with a pressure plate wired through a NOT gate to a single door. It teaches input, inversion, and output in one project, and it takes about two minutes to assemble on a test rig.
+
+**Can I combine several gates into one system?**
+Yes, and that is where real automation lives. A common pattern is sensor → AND gate → timer → cannon. Each stage narrows the condition until the output fires only when you genuinely want it to.
+
+**Why does my logic build work in a private server but fail in public ones?**
+Timing. In busy servers, sensors and timers can register a frame late, so a system that depends on two events happening at the exact same instant may misfire. Adding a small delay usually fixes it.
+
+## Final Thoughts
+
+Build a boat for treasure logic gates are not a gimmick — they are the difference between a boat that survives the river and a boat that reaches the treasure. Learn AND, OR, and NOT first, build a cheap test rig, and add complexity only when a simple switch truly cannot do the job. Once the basics click, you will start spotting automation opportunities in every hull you design.
+
+For the official game page, current updates, and community builds, visit [Build a Boat for Treasure on Roblox](https://www.roblox.com/games/537413528/Build-A-Boat-For-Treasure).

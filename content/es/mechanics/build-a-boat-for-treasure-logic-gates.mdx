@@ -1,0 +1,143 @@
+export const metadata = {
+  title: "Compuertas lógicas de Build a Boat for Treasure: guía completa de cableado y automatización",
+  description: "Aprende cómo funcionan las compuertas lógicas de Build a Boat for Treasure: cableado AND, OR, NOT, XOR, montajes paso a paso y automatizaciones que de verdad navegan.",
+  category: "mechanics",
+  date: "2026-10-04",
+}
+
+## Por qué las compuertas lógicas son el verdadero endgame en Build a Boat for Treasure
+
+Puedes pegar cien bloques entre sí y aun así hundirte en la misma fase en cada partida. La diferencia entre un montón de madera flotante y una máquina que de verdad llega al tesoro suele estar en el cableado, y ahí es exactamente donde entran las compuertas lógicas de Build a Boat for Treasure. Permiten que un botón, un sensor o una placa de presión activen otra cosa de forma automática: una puerta que se sella antes de que entre el agua, una batería de cañones que dispara sola, un soporte de globos que se despliega en el instante en que llegas al río.
+
+Si alguna vez has visto el barco de otro jugador pasar deslizándose junto a un peligro mientras el tuyo volcaba, la lógica suele ser la razón. Esta guía explica las compuertas lógicas de Build a Boat for Treasure en palabras sencillas: qué hace cada compuerta, cómo cablear una sin destrozar tu casco y qué proyectos de automatización merecen realmente el oro que gastas en ellos.
+
+Una advertencia antes de empezar: Build a Boat for Treasure recibe actualizaciones con regularidad, así que los nombres de las compuertas, los precios y las pestañas del menú pueden cambiar entre versiones. Toma los montajes de abajo como patrones que adaptar, no como notas del parche.
+
+### ¿Qué cuenta como bloque "lógico"?
+
+En el menú de construcción, los bloques lógicos suelen dividirse en tres grupos:
+
+- **Fuentes de señal** — botones, palancas, placas de presión, sensores, temporizadores
+- **Procesadores** — las propias compuertas (AND, OR, NOT, XOR y sus primas invertidas)
+- **Salidas** — todo lo que recibe energía: puertas, propulsores, luces, cañones, motores, globos
+
+Una compuerta no hace nada por sí sola. Se sitúa entre una fuente y una salida y decide *cuándo* se permite el paso de la energía. Esa única idea es todo el fundamento de la automatización en este juego.
+
+## Chuleta de compuertas lógicas: qué hace realmente cada una
+
+Cada compuerta lee una o más entradas (encendido o apagado) y produce una salida (encendido o apagado). Ese es todo el lenguaje. Una vez que interiorices las tablas de verdad de abajo, la mayoría de los montajes dejarán de parecer una adivinanza.
+
+| Compuerta | La salida se ENCIENDE cuando... | Mejor uso en un barco |
+|---|---|---|
+| AND | Todas las entradas conectadas están ENCENDIDAS | Lanzamiento con dos llaves, bloqueos de seguridad |
+| OR | Al menos una entrada está ENCENDIDA | Varios activadores para una misma puerta |
+| NOT | Su entrada está APAGADA | "Abrir en reposo, cerrar al armar" |
+| XOR | Exactamente una entrada está ENCENDIDA | Interruptores de dos vías, luces conmutadoras |
+| NAND | No todas las entradas están ENCENDIDAS | Liberaciones a prueba de fallos |
+| NOR | Ninguna entrada está ENCENDIDA | Sensores de estado de reposo |
+| XNOR | Ambas entradas coinciden | Sistemas de confirmación de dos pilotos |
+
+**Consejo de experiencia de jugador:** los principiantes en realidad solo necesitan AND, OR y NOT. Las compuertas invertidas (NAND, NOR, XNOR) son atajos: puedes reproducir el mismo comportamiento encadenando una compuerta básica a una NOT, pero cuesta bloques y cableado extra, algo que importa cuando tu barco tiene un límite de peso.
+
+### Leer una tabla de verdad sin jerga
+
+Una tabla de verdad no es más que una lista de todas las combinaciones posibles de entradas y la salida resultante. Para una compuerta AND de dos entradas hay cuatro filas: apagado/apagado, apagado/encendido, encendido/apagado y encendido/encendido. Solo la última fila produce energía. Si puedes rellenar esas cuatro filas para tu propio montaje, ya sabes qué compuerta necesitas. Dibújalo en papel antes de colocar un solo bloque: este hábito por sí solo evita la mayoría de las reconstrucciones.
+
+## Cómo cablear compuertas lógicas en Build a Boat for Treasure
+
+El cableado es donde la mayoría de los jugadores se rinde con las compuertas lógicas de Build a Boat for Treasure. La buena noticia es que el proceso es mecánico: colocar, conectar, probar. La mala es que un solo cable mal dirigido puede hacer que todo un sistema funcione al revés, y los sistemas al revés son la forma en que se hunden los barcos.
+
+| Paso | Acción | Qué comprobar |
+|---|---|---|
+| 1 | Coloca primero tu bloque de salida (puerta, propulsor, luz) | Confirma que funciona con una pulsación directa de botón |
+| 2 | Coloca el bloque de la compuerta cerca de la salida | Mantén los tramos de cable cortos y visibles |
+| 3 | Conecta la salida de la compuerta al bloque alimentado | Los puertos de salida suelen ser de otro color |
+| 4 | Conecta tu fuente (botón, palanca, sensor) a la entrada de la compuerta | Una fuente por puerto de entrada, salvo que quieras comportamiento OR |
+| 5 | Prueba cada entrada por separado | Activa una fuente a la vez |
+| 6 | Prueba combinaciones | Compáralas con la tabla de verdad que dibujaste |
+| 7 | Etiqueta o pon código de colores a los cables | Tu yo del futuro lo agradecerá |
+
+### Construye un banco de pruebas antes que un barco
+
+Los reportes de la comunidad recomiendan de forma consistente hacer una pequeña "barcaza de pruebas" —una plataforma plana que lleve una de cada compuerta, un botón, una palanca y una lámpara— antes de cablear nada en una construcción real. Diez minutos en un banco de pruebas ahorran una hora de depuración en la fase seis, cuando un solo fallo significa perder toda la partida.
+
+### Mantén el cableado legible
+
+Las construcciones lógicas se desordenan enseguida. Lleva los cables a lo largo del casco en lugar de por el centro de la cubierta, y deja un hueco entre la capa de cables y la capa de bloques para poder seguir cualquier conexión a simple vista. Cuando algo se rompa —y se romperá—, querrás encontrar el fallo en segundos, no en minutos.
+
+## 5 automatizaciones que justifican el esfuerzo
+
+Estos son los proyectos que hacen que las compuertas lógicas de Build a Boat for Treasure valgan el oro, ordenados más o menos por dificultad.
+
+| Montaje | Bloques necesarios | Dificultad | Por qué importa |
+|---|---|---|---|
+| Esclusa de cierre automático | 2 puertas, placa de presión, compuerta NOT | Fácil | Evita que el agua inunde tu cabina |
+| Arranque del motor con dos botones | 2 botones, compuerta AND, propulsor | Fácil | Evita lanzamientos accidentales |
+| Sistema de luces conmutables | Botón, compuerta XOR, lámpara | Fácil–Media | Un solo botón para encender y apagar |
+| Batería de cañones de proximidad | Sensor, compuerta AND, temporizador, cañones | Media | Dispara solo ante amenazas reales |
+| Cápsula de escape autodestructible | Botón, temporizador, compuerta NOT, propulsores | Media–Difícil | Salva una partida de tesoro en curso |
+
+### La esclusa, paso a paso
+
+1. Coloca una puerta interior y una puerta exterior con una pequeña sala sellada entre ellas.
+2. Pon una placa de presión dentro de esa sala.
+3. Cablea la placa a través de una compuerta **NOT** hasta la puerta interior, de modo que la puerta interior se cierre mientras estás de pie sobre la placa.
+4. Cablea la placa directamente a la puerta exterior.
+5. Pruébalo: entra, la puerta interior se cierra, la exterior se abre y el agua se queda fuera.
+
+### El arranque con dos botones
+
+Cablea dos botones separados a una compuerta **AND** y luego conecta la salida de la compuerta a tu propulsor principal. El motor solo se activa cuando se pulsan ambos botones. En un barco compartido en un servidor público, esta es la forma más sencilla de evitar que un pasajero te lance directo contra una roca.
+
+### La batería de cañones de proximidad
+
+Un sensor alimenta una compuerta AND, la compuerta AND alimenta un temporizador y el temporizador dispara los cañones. El sensor por sí solo dispararía contra olas y restos; la compuerta AND más el temporizador reducen el activador a algo que merece la pena disparar. Este es el ejemplo más claro de por qué las compuertas superan a los interruptores simples.
+
+## Errores comunes con las compuertas lógicas (y cómo solucionarlos)
+
+La mayoría de los fallos con las compuertas lógicas de Build a Boat for Treasure se reducen a un puñado de causas predecibles. Diagnostica con la tabla de abajo antes de empezar a arrancar bloques de tu casco.
+
+| Síntoma | Causa probable | Solución |
+|---|---|---|
+| La salida nunca se enciende | La propia compuerta no tiene energía | Confirma que el bloque de la compuerta recibe energía |
+| La salida está siempre encendida | Usaste NOT donde hacía falta un búfer | Sustitúyelo por un cable directo o una compuerta OR |
+| La puerta se abre cuando debería cerrarse | La lógica de entrada está invertida | Añade o quita una compuerta NOT |
+| Funciona en solitario, falla en multijugador | Sincronización de señales o lag del servidor | Añade un pequeño retardo con temporizador |
+| Solo funciona uno de los dos botones | Botones cableados a entradas distintas | Confirma que ambos alimentan la misma compuerta |
+
+**Los reportes de la comunidad** también señalan los "espaguetis de cables" como la razón número uno por la que se abandonan las construcciones lógicas. Si un sistema tiene más de unas seis conexiones, dibújalo primero. Un boceto en una servilleta gana al ensayo y error siempre.
+
+## Compuertas lógicas vs. interruptores simples: ¿cuándo vale la pena la complejidad?
+
+No todas las construcciones necesitan compuertas lógicas de Build a Boat for Treasure, y saber cuándo prescindir de ellas es una habilidad en sí misma.
+
+| Situación | Basta un interruptor simple | Es mejor una compuerta lógica |
+|---|---|---|
+| Abrir una sola puerta | Sí | No |
+| Abrir una puerta solo mientras te mueves | No | Sí (sensor + AND) |
+| Disparar un solo cañón | Sí | No |
+| Disparar solo a jugadores hostiles | No | Sí (sensor + AND + temporizador) |
+| Encender una luz | Sí | No |
+| Conmutar una luz con un solo botón | No | Sí (XOR) |
+
+La regla general: si tu construcción necesita las palabras **"solo"** o **"a menos que"**, necesitas una compuerta. Si solo necesita "encendido", una palanca hará el trabajo con una fracción de los bloques.
+
+## Preguntas frecuentes
+
+**¿Tengo que comprar las compuertas lógicas o son gratis?**
+La mayoría de los bloques lógicos y de mecanismos se desbloquean a medida que progresas y se compran con oro, igual que otros bloques. Consulta la pestaña de lógica o mecanismos del menú de construcción para ver el orden de desbloqueo y el precio actuales: el diseño de la tienda sí cambia entre actualizaciones.
+
+**¿Cuál es el montaje de compuertas lógicas de Build a Boat for Treasure más sencillo para un principiante?**
+Empieza con una placa de presión cableada a través de una compuerta NOT hasta una sola puerta. Te enseña entrada, inversión y salida en un solo proyecto, y se tarda unos dos minutos en montarlo en un banco de pruebas.
+
+**¿Puedo combinar varias compuertas en un solo sistema?**
+Sí, y ahí es donde vive la automatización de verdad. Un patrón habitual es sensor → compuerta AND → temporizador → cañón. Cada etapa reduce la condición hasta que la salida se dispara solo cuando realmente quieres.
+
+**¿Por qué mi construcción lógica funciona en un servidor privado pero falla en los públicos?**
+Por la sincronización. En servidores con mucha carga, los sensores y temporizadores pueden registrarse un fotograma tarde, así que un sistema que depende de dos eventos que ocurren en el mismo instante puede fallar. Añadir un pequeño retardo suele solucionarlo.
+
+## Reflexiones finales
+
+Las compuertas lógicas de Build a Boat for Treasure no son un truco: son la diferencia entre un barco que sobrevive al río y uno que llega al tesoro. Aprende primero AND, OR y NOT, construye un banco de pruebas barato y añade complejidad solo cuando un interruptor simple de verdad no pueda hacer el trabajo. Una vez que te hagas con lo básico, empezarás a detectar oportunidades de automatización en cada casco que diseñes.
+
+Para la página oficial del juego, las actualizaciones actuales y construcciones de la comunidad, visita [Build a Boat for Treasure en Roblox](https://www.roblox.com/games/537413528/Build-A-Boat-For-Treasure).
