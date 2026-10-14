@@ -3,7 +3,7 @@
     "name": "Build A Boat For Treasure Wiki",
     "shortName": "Build A Boat For Treasure",
     "tagline": "Design Custom Boats, Survive Dangerous Journeys & Collect Treasure",
-    "description": "Build A Boat For Treasure Wiki provides Roblox codes, building guides, treasure maps, block information, and tips to create powerful boats and complete adventures.",
+    "description": "Build A Boat For Treasure Wiki provides building guides, treasure maps, block information, and tips to create powerful boats and complete adventures.",
     "legalNotice": "Non-official fan wiki. Made by players, for players."
   },
   "nav": {
@@ -20,17 +20,17 @@
   },
   "home": {
     "meta": {
-      "title": "Build A Boat For Treasure Wiki - Codes, Builds & Guide",
-      "description": "Build A Boat For Treasure Wiki provides Roblox codes, building guides, treasure maps, block information, and tips to create powerful boats and complete adventures."
+      "title": "Build A Boat For Treasure Wiki - Builds & Guide",
+      "description": "Build A Boat For Treasure Wiki provides building guides, treasure maps, block information, and tips to create powerful boats and complete adventures."
     },
     "hero": {
       "eyebrow": "Creative Roblox Building Adventure",
       "title": "Build A Boat For Treasure Wiki",
-      "description": "Build A Boat For Treasure is a popular Roblox adventure game where players design custom boats, survive dangerous journeys, collect treasure, and unlock new building materials through creative construction.",
+      "description": "Build A Boat For Treasure is a long-running Roblox adventure game where players design custom boats, survive dangerous journeys, collect treasure, and unlock new building materials through creative construction.",
       "stats": [
-        "14B+ Total Visits",
-        "200+ Blocks Available",
-        "0 Active Codes",
+        "5.2B+ Total Visits",
+        "Blocks Available",
+        "No Verified Codes",
         "Regular Updates"
       ],
       "primaryCta": "Play on Roblox",
@@ -75,7 +75,7 @@
       "quickLinks": [
         "Boat Builds",
         "Gold Farming",
-        "Block Tiers",
+        "Block Guides",
         "Hidden Secrets"
       ],
       "cards": [
@@ -100,7 +100,7 @@
         {
           "badge": "Reference",
           "title": "Strongest Blocks",
-          "description": "Neon, gold, metal, and stone ranked by durability, weight, and cost.",
+          "description": "Neon, gold, metal, and stone compared by durability, weight, and cost.",
           "href": "/items/build-a-boat-for-treasure-strongest-blocks"
         },
         {
@@ -139,7 +139,7 @@
       "title": "What is Build A Boat For Treasure?",
       "paragraphs": [
         "Build A Boat For Treasure is a long-running Roblox sandbox from Chillz Studios. You snap blocks together on a build pad, launch your creation into a hazard-filled river, and sail it toward the treasure chest at the end of each stage. Gold collected during a run is credited even if the boat is destroyed, so every attempt moves your progress forward.",
-        "Progression comes from better blocks, smarter hulls, and cleaner routes rather than codes. With 200+ blocks, dozens of stages, and community designs ranging from simple rafts to flying machines, Build A Boat For Treasure rewards players who improve one build at a time and learn from every wipe."
+        "Progression comes from better blocks, smarter hulls, and cleaner routes rather than codes. With many blocks, dozens of stages, and community designs ranging from simple rafts to flying machines, Build A Boat For Treasure rewards players who improve one build at a time and learn from every wipe."
       ],
       "stats": [
         {
@@ -152,19 +152,19 @@
         },
         {
           "label": "Genre",
-          "value": "Sandbox Building"
+          "value": "Adventure"
         },
         {
           "label": "Visits",
-          "value": "14B+"
+          "value": "5.2B+"
         },
         {
           "label": "Blocks",
-          "value": "200+"
+          "value": "Not documented"
         },
         {
           "label": "Active Codes",
-          "value": "0"
+          "value": "None verified"
         },
         {
           "label": "Updates",
@@ -275,20 +275,20 @@
           "displayType": "tier-grid",
           "highlights": [
             {
-              "label": "S",
-              "detail": "Neon, a light all-purpose armor with high visibility in dark stages."
+              "label": "Neon",
+              "detail": "Light all-purpose armor with high visibility in dark stages."
             },
             {
-              "label": "A",
-              "detail": "Gold, top-tier bow plating and ramming armor, but very heavy."
+              "label": "Gold",
+              "detail": "Top-tier bow plating and ramming armor, but very heavy."
             },
             {
-              "label": "B",
-              "detail": "Metal, reliable mid-hull armor and engine housing at mid cost."
+              "label": "Metal",
+              "detail": "Reliable mid-hull armor and engine housing at mid cost."
             },
             {
-              "label": "C",
-              "detail": "Stone, cheap early armor and budget layering for new players."
+              "label": "Stone",
+              "detail": "Cheap early armor and budget layering for new players."
             }
           ]
         },

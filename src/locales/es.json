@@ -2,8 +2,8 @@
   "site": {
     "name": "Wiki de Build A Boat For Treasure",
     "shortName": "Build A Boat For Treasure",
-    "tagline": "Diseña barcos personalizados, sobrevive a viajes peligrosos y recoge tesoros",
-    "description": "La wiki de Build A Boat For Treasure ofrece códigos de Roblox, guías de construcción, mapas del tesoro, información de bloques y consejos para crear barcos poderosos y completar aventuras.",
+    "tagline": "Diseña barcos personalizados, sobrevive a viajes peligrosos y recolecta tesoros",
+    "description": "La Wiki de Build A Boat For Treasure ofrece guías de construcción, mapas del tesoro, información sobre bloques y consejos para crear barcos poderosos y completar aventuras.",
     "legalNotice": "Wiki de fans no oficial. Hecha por jugadores, para jugadores."
   },
   "nav": {
@@ -20,52 +20,52 @@
   },
   "home": {
     "meta": {
-      "title": "Wiki de Build A Boat For Treasure - Códigos, construcciones y guía",
-      "description": "La wiki de Build A Boat For Treasure ofrece códigos de Roblox, guías de construcción, mapas del tesoro, información de bloques y consejos para crear barcos poderosos y completar aventuras."
+      "title": "Wiki de Build A Boat For Treasure - Construcciones y guía",
+      "description": "La Wiki de Build A Boat For Treasure ofrece guías de construcción, mapas del tesoro, información sobre bloques y consejos para crear barcos poderosos y completar aventuras."
     },
     "hero": {
       "eyebrow": "Aventura creativa de construcción en Roblox",
       "title": "Wiki de Build A Boat For Treasure",
-      "description": "Build A Boat For Treasure es un popular juego de aventura de Roblox en el que los jugadores diseñan barcos personalizados, sobreviven a viajes peligrosos, recogen tesoros y desbloquean nuevos materiales de construcción mediante la construcción creativa.",
+      "description": "Build A Boat For Treasure es un juego de aventura de Roblox de larga trayectoria en el que los jugadores diseñan barcos personalizados, sobreviven a viajes peligrosos, recolectan tesoros y desbloquean nuevos materiales de construcción mediante la construcción creativa.",
       "stats": [
-        "Más de 14 mil millones de visitas",
-        "Más de 200 bloques disponibles",
-        "0 códigos activos",
+        "Más de 5.2 mil millones de visitas",
+        "Bloques disponibles",
+        "Sin códigos verificados",
         "Actualizaciones periódicas"
       ],
       "primaryCta": "Jugar en Roblox",
       "secondaryCta": "Guía para principiantes",
       "tertiaryCta": "Códigos activos",
-      "videoLabel": "Contenido oficial"
+      "videoLabel": "Contenido multimedia oficial"
     },
     "updates": {
       "title": "Últimas actualizaciones",
-      "browse": "Ver todas las guías",
+      "browse": "Explorar todas las guías",
       "viewAll": "Ver todo"
     },
     "start": {
       "eyebrow": "Empieza aquí",
-      "title": "Tu aventura en Build A Boat For Treasure",
+      "title": "Tu viaje en Build A Boat For Treasure",
       "cards": [
         {
           "number": "1",
           "title": "Guía para principiantes",
-          "description": "Aprende el ciclo de construir, lanzar, sobrevivir y recoger, además de la balsa ancha y baja que supera tus primeras fases sin desperdiciar oro."
+          "description": "Aprende el ciclo de construir, lanzar, sobrevivir y recolectar, además de la balsa ancha y baja que supera tus primeras etapas sin desperdiciar oro."
         },
         {
           "number": "2",
           "title": "Códigos y recompensas",
-          "description": "Entiende cómo funcionan realmente los códigos en Build A Boat For Treasure, de dónde vienen las recompensas y cómo detectar listas de códigos falsas o recicladas."
+          "description": "Entiende cómo funcionan realmente los códigos en Build A Boat For Treasure, de dónde vienen realmente las recompensas y cómo detectar listas de códigos recicladas o falsas."
         },
         {
           "number": "3",
           "title": "Farmeo de oro",
-          "description": "Consigue oro de forma eficiente repitiendo las primeras fases, abriendo cada cofre de fase y gastando en funciones antes que en decoración."
+          "description": "Farmea oro de forma eficiente repitiendo etapas tempranas, abriendo cada cofre del tesoro de etapa y gastando en función antes que en decoración."
         },
         {
           "number": "4",
           "title": "Mejores construcciones de barcos",
-          "description": "Copia diseños probados, desde balsas planas y catamaranes hasta barcos con parachoques, máquinas voladoras y megaconstrucciones de fin de partida."
+          "description": "Copia diseños probados, desde balsas planas y catamaranes hasta barcos con parachoques, máquinas voladoras y megaconstrucciones de fase final."
         }
       ]
     },
@@ -75,14 +75,14 @@
       "quickLinks": [
         "Construcciones de barcos",
         "Farmeo de oro",
-        "Niveles de bloques",
+        "Guías de bloques",
         "Secretos ocultos"
       ],
       "cards": [
         {
           "badge": "Principiante",
           "title": "Guía para principiantes",
-          "description": "Todo lo que necesitas para tu primera construcción, lanzamiento y carrera por el tesoro.",
+          "description": "Todo lo que necesitas para tu primera construcción, lanzamiento y ruta del tesoro.",
           "href": "/guide/build-a-boat-for-treasure-beginner-guide"
         },
         {
@@ -94,13 +94,13 @@
         {
           "badge": "Popular",
           "title": "Farmeo de oro",
-          "description": "Dónde aparece el oro, cómo farmearlo y cómo gastarlo con cabeza.",
+          "description": "Dónde aparece el oro, cómo farmearlo y cómo gastarlo con criterio.",
           "href": "/mechanics/build-a-boat-for-treasure-gold"
         },
         {
           "badge": "Referencia",
           "title": "Bloques más fuertes",
-          "description": "Neón, oro, metal y piedra clasificados por durabilidad, peso y coste.",
+          "description": "Neón, oro, metal y piedra comparados por durabilidad, peso y coste.",
           "href": "/items/build-a-boat-for-treasure-strongest-blocks"
         },
         {
@@ -112,7 +112,7 @@
         {
           "badge": "Secretos",
           "title": "Secretos ocultos",
-          "description": "Rutas de cofres, diseños eficientes y trucos de navegación de veteranos.",
+          "description": "Rutas de cofres, diseños eficientes y trucos de navegación veteranos.",
           "href": "/community/build-a-boat-for-treasure-secrets"
         },
         {
@@ -130,7 +130,7 @@
         {
           "badge": "Guía",
           "title": "De novato a pro",
-          "description": "Una hoja de ruta práctica desde tu primera balsa hasta construcciones de nivel pro.",
+          "description": "Una hoja de ruta práctica de progresión desde la primera balsa hasta construcciones de nivel pro.",
           "href": "/guide/build-a-boat-for-treasure-noob-to-pro"
         }
       ]
@@ -138,8 +138,8 @@
     "aboutGame": {
       "title": "¿Qué es Build A Boat For Treasure?",
       "paragraphs": [
-        "Build A Boat For Treasure es un sandbox de Roblox de larga trayectoria creado por Chillz Studios. Ensamblas bloques sobre una plataforma de construcción, lanzas tu creación a un río lleno de peligros y la navegas hasta el cofre del tesoro al final de cada fase. El oro recogido durante una partida se acredita aunque el barco quede destruido, así que cada intento hace avanzar tu progreso.",
-        "El progreso llega con mejores bloques, cascos más inteligentes y rutas más limpias, no con códigos. Con más de 200 bloques, docenas de fases y diseños de la comunidad que van de simples balsas a máquinas voladoras, Build A Boat For Treasure recompensa a quienes mejoran una construcción a la vez y aprenden de cada naufragio."
+        "Build A Boat For Treasure es un sandbox de Roblox de larga trayectoria de Chillz Studios. Ensamblas bloques en una plataforma de construcción, lanzas tu creación a un río lleno de peligros y la navegas hacia el cofre del tesoro al final de cada etapa. El oro recolectado durante una partida se acredita incluso si el barco es destruido, así que cada intento hace avanzar tu progreso.",
+        "La progresión proviene de mejores bloques, cascos más inteligentes y rutas más limpias en lugar de códigos. Con muchos bloques, docenas de etapas y diseños de la comunidad que van desde balsas simples hasta máquinas voladoras, Build A Boat For Treasure recompensa a los jugadores que mejoran una construcción a la vez y aprenden de cada naufragio."
       ],
       "stats": [
         {
@@ -152,51 +152,51 @@
         },
         {
           "label": "Género",
-          "value": "Construcción sandbox"
+          "value": "Aventura"
         },
         {
           "label": "Visitas",
-          "value": "Más de 14 mil millones"
+          "value": "Más de 5.2 mil millones"
         },
         {
           "label": "Bloques",
-          "value": "Más de 200"
+          "value": "No documentado"
         },
         {
           "label": "Códigos activos",
-          "value": "0"
+          "value": "Ninguno verificado"
         },
         {
           "label": "Actualizaciones",
           "value": "Periódicas"
         }
       ],
-      "cta": "Explora todas las guías"
+      "cta": "Explorar todas las guías"
     },
     "explore": {
-      "title": "Explora la wiki de Build A Boat For Treasure",
-      "description": "Domina cada fase de Build A Boat For Treasure con explicaciones de códigos, guías para principiantes, ideas de construcción de barcos, referencias de bloques, rutas de farmeo de oro, secretos ocultos, guías de piezas y notas de actualización.",
+      "title": "Explora la Wiki de Build A Boat For Treasure",
+      "description": "Domina cada etapa de Build A Boat For Treasure con explicaciones de códigos, tutoriales para principiantes, ideas de construcción de barcos, referencias de bloques, rutas de farmeo de oro, secretos ocultos, guías de piezas y notas de actualización.",
       "modules": [
         {
           "order": 1,
           "name": "Códigos de Build A Boat For Treasure",
-          "description": "Este módulo explica cómo funcionan realmente los códigos canjeables en Build A Boat For Treasure, qué recompensas pueden reclamar los jugadores y de dónde vienen en realidad el oro gratis y las piezas especiales.",
+          "description": "Este módulo cubre cómo funcionan realmente los códigos de canje en Build A Boat For Treasure, qué recompensas pueden reclamar los jugadores y de dónde vienen realmente el oro gratis y las piezas especiales.",
           "href": "/codes/build-a-boat-for-treasure-codes",
           "displayType": "code-cards",
           "highlights": [
             {
               "label": "Sin códigos",
-              "detail": "En Build A Boat For Treasure no existe una caja de canje verificada, así que las listas de códigos de oro gratis no tienen respaldo oficial.",
+              "detail": "No existe una caja de canje verificada en Build A Boat For Treasure, por lo que las listas de códigos de oro gratis no están respaldadas por una fuente oficial.",
               "badge": "Verificado"
             },
             {
-              "label": "Cofres de fase",
-              "detail": "El oro se gana al alcanzar el cofre del tesoro al final de una partida, y se acredita incluso si el barco queda destruido.",
+              "label": "Cofres de etapa",
+              "detail": "El oro se gana al alcanzar el cofre del tesoro al final de una partida, y se acredita incluso cuando el barco es destruido.",
               "badge": "Fiable"
             },
             {
               "label": "Eventos",
-              "detail": "Los eventos por tiempo limitado son la única fuente confirmada de recompensas temáticas extra y objetos cosméticos.",
+              "detail": "Los eventos por tiempo limitado son la única fuente confirmada de recompensas temáticas adicionales y objetos cosméticos.",
               "badge": "Limitado"
             }
           ]
@@ -204,33 +204,33 @@
         {
           "order": 2,
           "name": "Guía para principiantes de Build A Boat For Treasure",
-          "description": "Una guía centrada en principiantes que explica el bucle básico de construir y navegar, cómo hacer un primer barco que flote y cómo alcanzar los primeros cofres del tesoro.",
+          "description": "Una guía enfocada en principiantes que explica el ciclo básico de construir y navegar, cómo construir un primer barco que flote y cómo alcanzar los primeros cofres del tesoro.",
           "href": "/guide/build-a-boat-for-treasure-beginner-guide",
           "displayType": "step-by-step",
           "highlights": [
             {
               "label": "1",
-              "detail": "Empieza con un casco ancho, plano y simétrico para que tu primer barco resista los vuelcos."
+              "detail": "Empieza con un casco ancho, plano y simétrico para que tu primer barco resista volcarse."
             },
             {
               "label": "2",
-              "detail": "Coloca el asiento cerca del centro y pon un volante a su lado para tener buena visión hacia delante."
+              "detail": "Coloca el asiento cerca del centro y pon un volante a su lado para tener una visión frontal clara."
             },
             {
               "label": "3",
-              "detail": "Instala dos propulsores o una vela para un empuje constante, y guarda uno de repuesto por si acaso."
+              "detail": "Instala dos propulsores o una vela para un empuje constante, y guarda uno de repuesto por redundancia."
             },
             {
               "label": "4",
-              "detail": "Mete los globos bajos dentro del casco para obtener sustentación sin subir el centro de masas."
+              "detail": "Mete globos bajos dentro del casco para obtener sustentación sin elevar el centro de masa."
             },
             {
               "label": "5",
-              "detail": "Lanza, prueba y arregla un problema a la vez en lugar de reconstruir desde cero."
+              "detail": "Lanza, prueba y corrige un problema a la vez en lugar de reconstruir desde cero."
             },
             {
               "label": "6",
-              "detail": "Guarda un plano que ya funcione antes de cada experimento para que un rediseño fallido no te cueste nada."
+              "detail": "Guarda un plano que sepas que funciona antes de cada experimento para que un rediseño fallido no cueste nada."
             }
           ]
         },
@@ -243,7 +243,7 @@
           "highlights": [
             {
               "label": "Balsa plana",
-              "detail": "Diseño inicial ancho y bajo que rara vez vuelca en las primeras fases."
+              "detail": "Diseño inicial ancho y bajo que rara vez vuelca en las primeras etapas."
             },
             {
               "label": "Catamarán",
@@ -255,72 +255,72 @@
             },
             {
               "label": "Trineo de hielo",
-              "detail": "Diseño estrecho y de baja fricción para fases heladas y resbaladizas."
+              "detail": "Construcción estrecha y de baja fricción para etapas heladas y resbaladizas."
             },
             {
               "label": "Parachoques",
-              "detail": "Barco con morro de metal que absorbe los impactos en campos de rocas."
+              "detail": "Barco con morro de metal que absorbe impactos en campos de rocas."
             },
             {
               "label": "Minisubmarino",
-              "detail": "Casco cerrado que mantiene el agua fuera en las secciones submarinas."
+              "detail": "Casco cerrado que mantiene el agua fuera en secciones submarinas."
             }
           ]
         },
         {
           "order": 4,
           "name": "Guía de objetos de Build A Boat For Treasure",
-          "description": "Una referencia clasificada de los bloques, herramientas y objetos especiales que se usan en la construcción de barcos, que muestra qué materiales merecen su peso y su coste.",
+          "description": "Una referencia clasificada de los bloques, herramientas y objetos especiales usados en la construcción de barcos, que muestra qué materiales valen su peso y coste.",
           "href": "/items/build-a-boat-for-treasure-strongest-blocks",
           "displayType": "tier-grid",
           "highlights": [
             {
-              "label": "S",
-              "detail": "Neón, una armadura ligera todoterreno con gran visibilidad en fases oscuras."
+              "label": "Neón",
+              "detail": "Armadura ligera todoterreno con alta visibilidad en etapas oscuras."
             },
             {
-              "label": "A",
-              "detail": "Oro, blindaje de proa y ariete de primer nivel, pero muy pesado."
+              "label": "Oro",
+              "detail": "Placas de proa y armadura de embestida de primer nivel, pero muy pesadas."
             },
             {
-              "label": "B",
-              "detail": "Metal, armadura fiable para el centro del casco y alojamiento del motor a coste medio."
+              "label": "Metal",
+              "detail": "Armadura fiable para el centro del casco y carcasa de motor a coste medio."
             },
             {
-              "label": "C",
-              "detail": "Piedra, armadura inicial barata y capas económicas para jugadores nuevos."
+              "label": "Piedra",
+              "detail": "Armadura temprana barata y capas económicas para jugadores nuevos."
             }
           ]
         },
         {
           "order": 5,
           "name": "Guía de oro de Build A Boat For Treasure",
-          "description": "Este módulo explica métodos para ganar oro de forma eficiente, completar travesías y acelerar el progreso hacia nuevos materiales de construcción.",
+          "description": "Este módulo explica métodos para ganar oro de forma eficiente, completar viajes y mejorar la velocidad de progresión hacia nuevos materiales de construcción.",
           "href": "/mechanics/build-a-boat-for-treasure-gold",
           "displayType": "card-list",
           "highlights": [
             {
               "label": "Cofres",
-              "detail": "Llega al cofre del tesoro de la fase para conseguir el mayor pago único de una partida."
+              "detail": "Alcanza el cofre del tesoro de la etapa para obtener el mayor pago único de una partida."
             },
             {
               "label": "Repeticiones",
-              "detail": "Repite fases cortas del inicio que puedas completar rápido para lograr oro estable y de bajo riesgo."
+              "detail": "Repite etapas tempranas cortas que puedas superar rápido para obtener oro constante y de bajo riesgo."
             },
             {
               "label": "Distancia",
-              "detail": "Avanza una fase más que tu mejor marca, ya que el pago escala con el progreso."
+              "detail": "Avanza una etapa más allá de tu mejor marca, ya que el pago escala con el progreso."
             },
             {
               "label": "Gasto",
-              "detail": "Compra función antes que estética y mejora un sistema a la vez."
+              "detail": "Compra función antes que estilo y mejora un sistema a la vez."
             }
           ]
         },
         {
           "order": 6,
           "name": "Secretos de Build A Boat For Treasure",
-          "description": "Una colección de rutas ocultas de cofres, diseños eficientes y mecánicas poco conocidas que ayudan a los jugadores a llegar mucho más a menudo al tesoro.",
+          "description": "Una colección de rutas ocultas de cofres, diseños eficientes y mecánicas poco conocidas que ayudan a los jugadores a alcanzar el tesoro con mucha más frecuencia.",
           "href": "/community/build-a-boat-for-treasure-secrets",
           "displayType": "card-list",
           "highlights": [
@@ -330,7 +330,7 @@
             },
             {
               "label": "Rutas",
-              "detail": "Anota una ruta de cofres y luego repite la fase para farmearla de forma eficiente."
+              "detail": "Anota una ruta de cofres y luego repite la etapa para farmearla eficientemente."
             },
             {
               "label": "Peso",
@@ -338,61 +338,61 @@
             },
             {
               "label": "Respaldo",
-              "detail": "Construye con redundancia para que una pieza rota nunca acabe con toda la partida."
+              "detail": "Construye con redundancia para que una pieza rota nunca termine toda la partida."
             }
           ]
         },
         {
           "order": 7,
           "name": "Guía de piezas de Build A Boat For Treasure",
-          "description": "Este módulo organiza las piezas de construcción principales y explica sus funciones, desde la dirección y el empuje hasta la sustentación, el agarre y el cableado de automatización.",
+          "description": "Este módulo organiza las piezas de construcción principales y explica sus roles, desde la dirección y el empuje hasta la sustentación, el agarre y el cableado de automatización.",
           "href": "/mechanics/build-a-boat-for-treasure-steering-wheel",
           "displayType": "code-cards",
           "highlights": [
             {
               "label": "Volante",
-              "detail": "Se coloca cerca del centro de masas para que el barco gire sin sobrevirar."
+              "detail": "Colócalo cerca del centro de masa para que tu barco gire sin sobrevirar."
             },
             {
               "label": "Propulsores",
-              "detail": "Velocidad puntual para huecos y rampas; lleva un segundo como respaldo."
+              "detail": "Impulso rápido para huecos y rampas; lleva un segundo como respaldo."
             },
             {
               "label": "Globos",
-              "detail": "Bloques de sustentación que salvan obstáculos, pero vuelcan un casco alto si están desequilibrados."
+              "detail": "Bloques de sustentación que superan peligros pero vuelcan un casco alto si están desequilibrados."
             },
             {
               "label": "Velas",
-              "detail": "Avance barato y constante que brilla al principio del juego."
+              "detail": "Movimiento hacia adelante barato y constante que destaca en el juego temprano."
             },
             {
               "label": "Pegamento/Soldadura",
-              "detail": "Mantén las piezas unidas, ya que saltárselos es la principal causa de roturas a mitad de partida."
+              "detail": "Mantén las piezas unidas, ya que omitirlos es la principal causa de desprendimientos a mitad de partida."
             },
             {
               "label": "Ruedas",
-              "detail": "Sirven para rampas y tramos de tierra cuando las fases mezclan terrenos."
+              "detail": "Sirven para rampas y secciones de tierra una vez que las etapas mezclan terrenos."
             }
           ]
         },
         {
           "order": 8,
           "name": "Actualizaciones de Build A Boat For Treasure",
-          "description": "Una sección de noticias que cubre las actualizaciones oficiales de Build A Boat For Treasure, los cambios de los desarrolladores y el contenido nuevo que los jugadores que vuelven deberían conocer.",
+          "description": "Una sección de noticias que cubre las actualizaciones oficiales de Build A Boat For Treasure, los cambios de los desarrolladores y el contenido nuevo que los jugadores que regresan deberían conocer.",
           "href": "/community/build-a-boat-for-treasure-release-date",
           "displayType": "card-list",
           "highlights": [
             {
               "label": "Parches",
-              "detail": "Chillz Studios añade, reequilibra y a veces retira piezas con el tiempo."
+              "detail": "Chillz Studios añade, reequilibra y ocasionalmente retira piezas con el tiempo."
             },
             {
               "label": "Bloques nuevos",
-              "detail": "El catálogo de bloques no deja de crecer y abre nuevas opciones de diseño en cada era."
+              "detail": "El catálogo de bloques sigue creciendo, abriendo nuevas opciones de diseño en cada era."
             },
             {
               "label": "Eventos",
-              "detail": "Llegan circuitos de eventos por tiempo limitado con recompensas temáticas que coleccionar."
+              "detail": "Llegan recorridos de eventos por tiempo limitado con recompensas temáticas para recolectar."
             },
             {
               "label": "Cronología",
@@ -408,29 +408,29 @@
       "items": [
         {
           "question": "¿Qué es Build A Boat For Treasure?",
-          "answer": "Build A Boat For Treasure es un sandbox gratuito de Roblox de Chillz Studios en el que construyes un barco con bloques, lo lanzas a un río lleno de peligros y lo navegas hasta el cofre del tesoro al final de cada fase."
+          "answer": "Build A Boat For Treasure es un sandbox gratuito de Roblox de Chillz Studios en el que construyes un barco con bloques, lo lanzas a un río lleno de peligros y lo navegas hasta el cofre del tesoro al final de cada etapa."
         },
         {
           "question": "¿Build A Boat For Treasure es gratis?",
-          "answer": "Sí. Build A Boat For Treasure es gratis en Roblox, y puedes alcanzar los primeros cofres del tesoro sin gastar nada, ya que el progreso viene del oro ganado en las partidas."
+          "answer": "Sí. Build A Boat For Treasure es gratis en Roblox, y puedes alcanzar los primeros cofres del tesoro sin gastar nada, ya que el progreso proviene del oro ganado en las partidas."
         },
         {
           "question": "¿Build A Boat For Treasure tiene códigos?",
-          "answer": "Build A Boat For Treasure no tiene una caja de canje de códigos verificada dentro del juego, así que el oro viene de los cofres de fase y los eventos, no de escribir cadenas promocionales."
+          "answer": "Build A Boat For Treasure no tiene una caja de canje de códigos verificada en el juego, así que el oro proviene de los cofres de etapa y los eventos en lugar de escribir cadenas promocionales."
         },
         {
           "question": "¿Cuál es el mejor barco para principiantes en Build A Boat For Treasure?",
-          "answer": "Para Build A Boat For Treasure, empieza con una balsa ancha, baja y ligera, dos propulsores, un asiento con buena visión hacia delante, un volante junto al asiento y globos colocados bajos dentro del casco."
+          "answer": "Para Build A Boat For Treasure, empieza con una balsa ancha, baja y ligera, dos propulsores, un asiento con visión frontal clara, un volante junto al asiento y globos metidos bajos dentro del casco."
         },
         {
           "question": "¿Cómo se gana oro rápido en Build A Boat For Treasure?",
-          "answer": "En Build A Boat For Treasure, avanza una fase más que tu mejor marca, abre cada cofre de fase que alcances y evita gastar oro en bloques decorativos hasta terminar tus mejoras básicas."
+          "answer": "En Build A Boat For Treasure, avanza una etapa más allá de tu mejor marca anterior, abre cada cofre del tesoro de etapa que alcances y evita gastar oro en bloques decorativos hasta que hayas completado tus mejoras principales."
         }
       ]
     },
     "finalCta": {
       "title": "¿Listo para dominar Build A Boat For Treasure?",
-      "description": "Desde tu primer diseño de barco hasta travesías legendarias en busca del tesoro, nuestra wiki comunitaria te cubre con guías y consejos de construcción gratuitos y actualizados.",
+      "description": "Desde tu primer diseño de barco hasta partidas legendarias en busca del tesoro, nuestra wiki comunitaria te cubre con guías de construcción y consejos gratuitos y actualizados.",
       "primary": "Leer la guía para principiantes",
       "secondary": "Jugar en Roblox"
     }
@@ -445,7 +445,7 @@
   },
   "builds": {
     "overviewTitle": "Construcciones de Build A Boat For Treasure",
-    "overviewDescription": "Ideas de barcos, planos, máquinas voladoras y tutoriales de mechas para todo constructor de Build A Boat For Treasure."
+    "overviewDescription": "Ideas de barcos, planos, máquinas voladoras y tutoriales de mechs para todos los constructores de Build A Boat For Treasure."
   },
   "items": {
     "overviewTitle": "Objetos de Build A Boat For Treasure",
@@ -453,11 +453,11 @@
   },
   "mechanics": {
     "overviewTitle": "Mecánicas de Build A Boat For Treasure",
-    "overviewDescription": "Aprende el farmeo de oro, la resistencia de los bloques, las puertas lógicas, la dirección y las mecánicas de vuelo en Build A Boat For Treasure."
+    "overviewDescription": "Aprende farmeo de oro, resistencia de bloques, puertas lógicas, dirección y mecánicas de vuelo en Build A Boat For Treasure."
   },
   "quests": {
     "overviewTitle": "Misiones de Build A Boat For Treasure",
-    "overviewDescription": "Guías paso a paso de misiones, misiones secretas, eventos y puzles de portales en Build A Boat For Treasure."
+    "overviewDescription": "Guías paso a paso para misiones, misiones secretas, eventos y puzles de portales en Build A Boat For Treasure."
   },
   "community": {
     "overviewTitle": "Comunidad de Build A Boat For Treasure",
@@ -470,24 +470,24 @@
     "viewAllCodes": "Ver todos los códigos",
     "playOnRoblox": "Jugar en Roblox",
     "inThisSection": "En esta sección",
-    "tableOfContents": "Índice",
-    "nextSteps": "Siguientes pasos",
+    "tableOfContents": "Tabla de contenidos",
+    "nextSteps": "Próximos pasos",
     "needHelp": "¿Necesitas ayuda?",
-    "relatedReading": "Lecturas relacionadas",
+    "relatedReading": "Lectura relacionada",
     "relatedGuides": "Guías relacionadas",
     "readMore": "Leer más",
-    "officialMedia": "Contenido oficial",
+    "officialMedia": "Contenido multimedia oficial",
     "home": "Inicio",
-    "noGuidesAvailable": "Todavía no hay guías disponibles. ¡Vuelve pronto!"
+    "noGuidesAvailable": "Aún no hay guías disponibles. ¡Vuelve pronto!"
   },
   "footer": {
     "aboutTitle": "Wiki de Build A Boat For Treasure",
-    "about": "La wiki de Build A Boat For Treasure es un centro de guías independiente creado por fans que cubre construcciones de barcos, mapas del tesoro, bloques, objetos y conocimientos esenciales del juego tanto para jugadores nuevos como veteranos.",
+    "about": "La Wiki de Build A Boat For Treasure es un centro de guías independiente creado por fans que cubre construcciones de barcos, mapas del tesoro, bloques, objetos y conocimientos esenciales del juego tanto para jugadores nuevos como veteranos.",
     "quickLinks": "Enlaces rápidos",
     "guides": "Guías",
     "legal": "Legal",
-    "copyright": "2026 Wiki de Build A Boat For Treasure. No afiliada a Roblox ni a los desarrolladores del juego.",
-    "description": "Aventura creativa de construcción en Roblox, gratis. Diseña barcos personalizados, sobrevive a los viajes y recoge tesoros.",
+    "copyright": "2026 Wiki de Build A Boat For Treasure. No está afiliada a Roblox ni a los desarrolladores del juego.",
+    "description": "Aventura creativa de construcción en Roblox gratuita. Diseña barcos personalizados, sobrevive a los viajes y recolecta tesoros.",
     "playGame": "Jugar a Build A Boat For Treasure en Roblox",
     "officialDiscord": "Reddit de la comunidad",
     "officialYoutube": "Vídeos de gameplay en YouTube",

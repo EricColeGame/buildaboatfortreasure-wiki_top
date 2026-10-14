@@ -1,107 +1,77 @@
 export const metadata = {
-  title: "Volante de Build a Boat for Treasure: cómo colocarlo, conectarlo y dirigir tu barco",
-  description: "Aprende cómo funciona el volante de Build a Boat for Treasure, dónde colocarlo y cómo solucionar problemas de giro, deriva y dirección invertida.",
+  title: "Cómo construir un barco para tesoros: razonamiento práctico de diseño",
+  description: "Una guía práctica para construir un barco para tesoros en Build A Boat For Treasure de Roblox, que abarca flotabilidad, peso, empuje y protección.",
   category: "mechanics",
-  date: "2026-10-04",
-}
+  date: "2026-10-14",
+};
 
-## Por qué el volante decide si llegas al tesoro
+Si quieres aprender cómo construir un barco para tesoros en Roblox, lo primero que debes entender es qué tipo de juego estás jugando realmente. [Build A Boat For Treasure](https://www.roblox.com/games/537413528/Build-A-Boat-For-Treasure) es una experiencia de larga trayectoria del grupo verificado Chillz Studios. El registro oficial de Roblox muestra que el lugar fue creado el 2 de noviembre de 2016 y se actualizó por última vez el 9 de octubre de 2026. Ha atraído aproximadamente 5.2 mil millones de visitas y normalmente tiene miles de jugadores en línea en cualquier momento. Es un juego de género Aventura con un tamaño de servidor listado de 7, y el bucle central es simple de describir: construyes un barco en una parcela de construcción, luego lo navegas a través de etapas llenas de obstáculos para ganar oro.
 
-Un barco que sale disparado de la isla inicial pero no puede girar es un barco que choca contra el primer obstáculo y se hunde. El **volante de Build a Boat for Treasure** es el bloque que convierte la velocidad bruta en control real, y es la única mejora que cambia cómo se siente conducir una construcción. Si alguna vez has visto tu creación pasar de largo un punto de control mientras aporreabas las teclas, ya sabes por qué esto importa.
+Esa simplicidad es engañosa. La mayoría de las partidas fallidas no son causadas por malos reflejos. Son causadas por un diseño que lucha contra sí mismo antes de siquiera alcanzar el primer peligro. Este artículo cubre el razonamiento que tiende a separar los barcos que sobreviven de los barcos que se hunden, vuelcan o explotan al contacto. Todo lo que sigue está enmarcado como razonamiento de jugador y principios generales de diseño, no como estadísticas documentadas por el desarrollador.
 
-Acertar con el **volante de Build a Boat for Treasure** —dónde se sitúa, hacia dónde mira y cuánta potencia de empuje le acompañas— es lo que separa una construcción que llega al tesoro de otra que gira en el sitio. Esta guía cubre la mecánica, las reglas de colocación, la resolución de problemas y los patrones de configuración que usan los jugadores experimentados en todo, desde pequeñas balsas hasta enormes naves de tripulación.
+## Características anunciadas en las que realmente puedes confiar
 
-## Cómo funciona realmente el volante de Build a Boat for Treasure
+La descripción oficial anuncia ventajas de grupo, y vale la pena conocerlas antes de dedicar tiempo a optimizar una construcción. Son los únicos bonos mecánicos que el desarrollador documenta.
 
-Lo más importante que hay que entender es que el volante no es un motor. No empuja tu barco hacia delante. Lo que hace es aplicar **rotación** a todo el conjunto que has soldado.
+| Nivel de membresía | Ventajas anunciadas |
+| --- | --- |
+| Member | 25% más de oro |
+| Mega Member | 300% más de salud y 25% más de oro |
+| Royal Member | +4 barriles de TNT, 300% más de salud y 25% más de oro |
 
-Cuando tu personaje se sienta en el volante y pulsa izquierda o derecha, el juego rota toda tu construcción alrededor de su centro de masa. Ese único hecho explica casi todos los problemas de dirección con los que se topan los jugadores:
+Fíjate en lo que está ausente. La página oficial no documenta un sistema de códigos promocionales, nombres de bloques, cantidad de etapas, valores de oro, precios de tienda ni listas de planos. Si ves un video o artículo que promete un código funcional, trátalo como no verificado. La forma correcta de comprobarlo es abrir la página oficial del juego y buscar una sección de códigos o recompensas, o inspeccionar el menú dentro del juego para encontrar un campo de canje. Si ninguno existe, no hay nada que canjear.
 
-- Un barco con volante pero sin vela ni propulsor simplemente rotará en el sitio para siempre.
-- Un barco con mucho empuje pero sin volante solo viajará en línea recta.
-- Un barco con un casco pesado y desequilibrado rotará con lentitud, sin importar cuántos volantes añadas.
+## Empieza por la flotabilidad y el peso, no por la velocidad
 
-El segundo detalle clave es la **orientación**. El bloque tiene una dirección frontal, y esa orientación determina qué entrada gira hacia qué lado. Los informes de la comunidad señalan de forma consistente que un volante montado al revés produce una dirección que se siente invertida: pulsas izquierda y la proa gira a la derecha. Si tu barco dirige "mal" desde la primera prueba, gira el bloque antes de reconstruir cualquier otra cosa.
+Los constructores nuevos normalmente añaden empuje primero. Eso es al revés. Un barco flota porque la fuerza ascendente del agua desplazada supera la fuerza descendente de su masa. Añadir más motores no cambia ese equilibrio, y normalmente lo empeora al añadir peso.
 
-Por último, el volante solo funciona mientras un jugador está sentado en él. Si tu personaje sale despedido durante un choque, o saltas para agarrar un bloque de oro flotante, pierdes el control al instante. En carreras largas, esa es una causa sorprendentemente común de que un barco "de repente deje de girar".
+Un enfoque práctico es construir el casco más pequeño que pueda llevar tu carga prevista. Los diseños anchos y planos tienden a resistir el vuelco. Las torres altas y estrechas tienden a zozobrar, especialmente en etapas con rampas u obstáculos giratorios. Mantén los componentes pesados bajos y cerca del centro del casco, porque un centro de masa alto convierte cada bache en un balanceo.
 
-## Colocación del volante: dónde debe ir en tu casco
+Pregúntate algo simple en cada paso: ¿esta pieza me ayuda a flotar, moverme o sobrevivir? Si no hace ninguna de esas cosas, es lastre que no elegiste.
 
-La colocación es la diferencia entre un barco que traza giros cerrados y otro que se balancea torpemente. La regla general de los constructores experimentados: coloca el volante **cerca del centro de la masa de tu barco**, no en la parte delantera ni trasera extrema.
+## Empuje, dirección y control
 
-| Colocación | Efecto en el manejo | Mejor para |
-|---|---|---|
-| Centrado, bajo en el casco | Rotación más estable, mínimo balanceo | Barcos pequeños y medianos |
-| Centrado, encima de una cabina | Buena visibilidad, ligero exceso de peso arriba | Construcciones altas con cubierta elevada |
-| Montado al revés | Las entradas de dirección se sienten invertidas | Nadie: arréglalo de inmediato |
-| Descentrado (muy a la izquierda o derecha) | Par desigual, el barco tira hacia un lado | Evítalo en construcciones de un solo volante |
-| Varios volantes repartidos por un casco | Cualquier jugador sentado puede tomar el control | Barcos de tripulación y naves grandes |
-| Enterrado dentro del casco | No se puede sentar nadie, el volante es inútil | Nadie |
+Una vez que un casco flota, la propulsión se convierte en el problema interesante. Los propulsores colocados en la parte trasera te empujan hacia adelante; los propulsores colocados a los lados o al frente pueden ayudarte a rotar. La simetría importa más que la cantidad bruta. Dos motores emparejados en lados opuestos se comportan de forma predecible. Cinco motores desemparejados producen un barco que gira a la izquierda sin importar lo que hagas.
 
-Dos notas prácticas. Primero, mantén el volante **accesible**: tienes que sentarte físicamente en él, así que no lo encierres detrás de bloques decorativos. Segundo, mantenlo **bajo** si tu barco es alto. Un volante encaramado sobre una pila de globos eleva tu centro de masa, y toda la construcción volcará cuando hagas un giro brusco.
+Las guías de la comunidad a menudo sugieren probar un diseño en una etapa temprana y suave antes de intentar algo más difícil. Ese es un consejo sólido sin importar qué bloques uses, porque aísla los defectos. Si un barco gira en agua tranquila, girará peor en un peligro. Itera en la parcela, luego comprométete con una partida.
 
-Si no estás seguro, construye primero una versión de prueba barata. Un casco corto, un volante y un propulsor te dirán más en treinta segundos que una hora de teorías.
+## Protección y tolerancia al daño
 
-## Volante frente a otros bloques de control y propulsión
+Los obstáculos en Build A Boat For Treasure castigan la estructura expuesta. El razonamiento aquí es el mismo que en cualquier juego de física: una pieza blindada cuesta peso, y una pieza sin protección cuesta toda la partida cuando se rompe.
 
-Los jugadores nuevos suelen asumir que el volante lo hace todo. No es así. Piensa en tu barco como si tuviera dos trabajos separados: **avanzar** y **girar**.
+Superpón tus componentes críticos. Coloca los motores y el núcleo del casco detrás o dentro del material estructural en lugar de en el borde exterior. Si usas explosivos, recuerda que la ventaja de Royal Member otorga barriles adicionales de TNT, lo que cambia cuánto riesgo puedes absorber pero no hace que la TNT sea segura de llevar a la ligera.
 
-| Bloque | Trabajo principal | Cuándo usarlo | Principal inconveniente |
-|---|---|---|---|
-| Volante | Rota el barco | Cualquier construcción que necesite cambiar de dirección | No empuja hacia delante por sí solo |
-| Vela | Propulsión hacia delante, impulsada por el viento | Construcciones iniciales y tramos largos y abiertos | Depende de la dirección del viento |
-| Propulsor / Motor | Propulsión hacia delante, autopropulsada | Control preciso y recorridos con obstáculos estrechos | Necesita combustible o gestión de energía |
-| Globo | Sustentación y flotación | Mantener a flote construcciones pesadas | Añade volumen y perjudica el giro |
+No hay un bloque de armadura "mejor" documentado, y cualquier lista que afirme números exactos de durabilidad debe tratarse como una observación de terceros. La prueba fiable es la tuya: construye, lanza y observa qué sección falla primero.
 
-Las construcciones con mejor rendimiento combinan al menos un volante con una fuente de propulsión que puedas regular. Un volante solo es una plataforma que gira; un propulsor solo es un misil descontrolado. Juntos te dan un barco que de verdad puedes apuntar.
+## Un bucle repetible de construcción y prueba
 
-Para más contexto sobre cómo las construcciones de Roblox gestionan las piezas impulsadas por la física, la [plataforma oficial de Roblox](https://www.roblox.com/) es el punto de partida autorizado para saber cómo se comportan estos sistemas.
+Una rutina útil para cualquier constructor se ve así:
 
-## Solución de problemas comunes de dirección
+1. Diseña el casco más pequeño que flote con tu carga.
+2. Añade empuje emparejado y confirma que el barco avanza recto en agua tranquila.
+3. Añade protección alrededor de los motores y el núcleo del casco, luego vuelve a comprobar la flotabilidad.
+4. Juega una etapa fácil y anota el primer punto de fallo.
+5. Reconstruye solo esa sección, en lugar de empezar de cero.
 
-La mayoría de las quejas sobre la dirección se remontan a un puñado de causas. Repasa esta tabla antes de desmontar tu barco.
+Este bucle respeta el hecho de que el oro se gana por progreso exitoso, y las ventajas de grupo anunciadas aumentan ese oro en un 25% para los miembros y Mega Members. Si estás farmeando, la membresía es un multiplicador documentado. Cualquier cosa más allá de eso es especulación.
 
-| Síntoma | Causa probable | Solución |
-|---|---|---|
-| El barco gira en círculos y no va a ningún lado | El volante es el único bloque; no hay propulsión | Añade una vela, un propulsor o un motor |
-| La dirección está invertida | El bloque del volante está montado al revés | Rota el bloque 180 grados |
-| El barco no gira en absoluto | Nadie está sentado en el volante | Vuelve a sentar a tu personaje; comprueba la accesibilidad |
-| El barco tira hacia un lado | Volante colocado descentrado o casco desequilibrado | Vuelve a centrar el volante y equilibra el casco |
-| El barco vuelca en giros bruscos | Centro de masa demasiado alto | Baja los bloques pesados; mueve el volante hacia abajo |
-| El giro se siente lento en una nave grande | No hay suficiente capacidad de rotación para la masa | Añade un segundo volante o aligera el casco |
+## Lo que no está documentado
 
-Algunos consejos adicionales que aparecen repetidamente en la experiencia de los jugadores:
+Vale la pena ser directo sobre los vacíos. La página oficial no enumera etapas, estadísticas de bloques, precios de tienda, tasas de drop, atajos de teclado ni notas de parche. No describe un sistema de códigos. Las wikis y videos de terceros pueden llenar esos vacíos, pero son observaciones secundarias, no documentación del desarrollador, y quedan obsoletos a medida que el juego se actualiza. En caso de duda, verifica dentro del juego o en la página oficial de Roblox, y prefiere lo que puedes probar tú mismo por encima de lo que promete una miniatura.
 
-- **Prueba primero con un casco vacío.** Añade carga, decoraciones y bloques pesados solo después de que la dirección se sienta bien.
-- **Observa la estela, no la proa.** Al girar, la popa se abre mucho. Apunta la popa lejos de los obstáculos, no solo la proa.
-- **Reduce el empuje antes de un giro cerrado.** Los barcos con demasiada potencia superan su propia capacidad de dirección, sobre todo en etapas posteriores con huecos estrechos.
-- **Lleva un volante de repuesto.** Si una etapa destruye tu bloque de control, un repuesto en la barra rápida salva la partida.
+## FAQ
 
-## Construir a lo grande: varios volantes y barcos de tripulación
+**¿Build A Boat For Treasure tiene códigos promocionales?**
+La descripción oficial de Roblox no documenta ningún sistema de canje. Si existe un código, aparecería en el juego o en la página oficial, así que revisa allí en lugar de confiar en sitios agregadores.
 
-Cuando tus barcos se hacen grandes, un solo volante a menudo no puede rotar la masa lo bastante rápido. La solución estándar es la redundancia: dos o más volantes repartidos por la cubierta, para que cualquier jugador pueda tomar el timón y para que el barco siga girando si uno queda destruido.
+**¿Es lo mismo que la app móvil "Build a Boat - Obby Treasure"?**
+No. Ese es un juego no relacionado. La experiencia de Roblox es el lugar 537413528 de Chillz Studios.
 
-| Tipo de barco | Volantes | Propulsión | Qué vigilar |
-|---|---|---|---|
-| Balsa diminuta | 1 | 1 vela o un propulsor pequeño | Sobreviraje; suaviza las entradas |
-| Crucero pequeño | 1 | 1–2 propulsores | Mantener el casco equilibrado |
-| Carguero mediano | 2 | 2 propulsores más vela | Centro de masa que sube poco a poco |
-| Nave grande de tripulación | 2–3 | Varios propulsores | Rotación lenta; necesita materiales ligeros |
+**¿Cuál es el mejor bloque para un barco?**
+No hay un mejor bloque documentado. Diseña en torno a la flotabilidad, el empuje equilibrado y la protección de las piezas críticas, luego prueba.
 
-Las construcciones grandes también se benefician de la **simetría**. Un casco más pesado de un lado siempre luchará contra tu dirección, sin importar cuántos volantes instales. Construye de forma reflejada siempre que puedas, y reserva tus bloques estructurales más pesados para la capa más baja del casco.
+**¿Ayudan las ventajas de grupo?**
+Sí, como se anuncia: 25% más de oro para los miembros, y bonos de salud y TNT en niveles superiores.
 
-Por último, recuerda que las etapas tardías del tesoro recompensan la precisión por encima de la velocidad bruta. Un barco un poco más lento con una dirección precisa superará huecos estrechos con obstáculos de forma mucho más consistente que un barco rápido que se maneja como un carrito de supermercado. Si estás farmeando etapas, invierte en control antes de invertir en empuje.
-
-## Preguntas frecuentes
-
-**¿Cómo consigo un volante de Build a Boat for Treasure?**
-Lo compras en la tienda de objetos del juego con oro que ganas al avanzar por las etapas. Una vez lo tengas, colócalo en el modo de construcción como cualquier otro bloque; solo asegúrate de que sea accesible para que tu personaje pueda sentarse en él.
-
-**¿Por qué mi volante gira el barco al lado equivocado?**
-El bloque tiene una dirección frontal, y montarlo al revés invierte tus entradas. Rota el bloque 180 grados y vuelve a probar antes de hacer cualquier otro cambio.
-
-**¿Necesito más de un volante?**
-En barcos pequeños y medianos, uno es suficiente. En construcciones grandes y pesadas, un segundo volante te da una rotación más rápida y un respaldo si el primero queda destruido durante una partida.
-
-**¿Por qué no gira mi barco aunque el volante esté colocado correctamente?**
-Comprueba tres cosas en orden: si hay un jugador sentado de verdad en el volante, si el barco tiene suficiente propulsión para moverse y si el casco está lo bastante equilibrado para que la rotación surta efecto. En la mayoría de los casos, la respuesta es una de esas tres.
+**¿Puede esta guía garantizar que termine todas las etapas?**
+No. Es razonamiento, no una promesa. El juego recompensa la iteración, y tus propias pruebas son la única medida fiable.

@@ -1,106 +1,76 @@
 export const metadata = {
-  title: "Build a Boat For Treasure Mech-Tutorial: Wie man einen laufenden Mech entwirft",
-  description: "Lerne, wie du in Build a Boat For Treasure einen laufenden Mech baust – mit diesem Schritt-für-Schritt-Mech-Tutorial zu Rahmen, Gelenken, Gangart, Balance und Tests.",
+  title: "Build a Boat for Treasure: Ein praktischer Leitfaden für den Schiffsbau",
+  description: "Erfahre, wie Build a Boat for Treasure auf Roblox funktioniert, was die offizielle Seite bestätigt und wie du über Auftrieb, Gewicht und Schub nachdenken solltest.",
   category: "builds",
-  date: "2026-10-04",
-}
+  date: "2026-10-14",
+};
 
-Laufende Mechs sind die Vorzeigebauten in Build a Boat For Treasure – und zugleich der schnellste Weg, einen Haufen Blöcke in eine Maschine zu verwandeln, die sich tatsächlich bewegt. Ein solides Mech-Tutorial spart Stunden voller Versuch und Irrtum, denn der Unterschied zwischen einer steifen Statue und einer Maschine, die den Fluss entlangschreitet, hängt an einer Handvoll struktureller Regeln. Dieses Build a Boat For Treasure Mech-Tutorial zerlegt den Prozess in klare Phasen: Rahmen, Gelenke, Antrieb, Steuerung und Tests. Ob du einen zweibeinigen Späher oder einen schweren vierbeinigen Läufer willst – es gelten dieselben Prinzipien dieses Build a Boat For Treasure Mech-Tutorials: starte starr, füge Artikulation Gelenk für Gelenk hinzu und stimme dann die Gangart ab.
+Wenn du jemals gesehen hast, wie ein Holzfloß in dem Moment, in dem es das Wasser berührt, von einem Ende zum anderen umkippt, dann verstehst du bereits, warum **Build a Boat for Treasure** die Aufmerksamkeit der Spieler so lange auf sich gezogen hat. Das Roblox-Erlebnis, veröffentlicht unter der Place-ID 537413528, verwandelt eine einfache Prämisse in ein technisches Rätsel: Baue auf deinem Bauplatz ein Schiff aus Blöcken zusammen und segle es dann durch Hindernisparcours in Richtung Schatz und Gold. Dieser Leitfaden erklärt, was der offizielle Eintrag tatsächlich bestätigt, was erfahrene Spieler tendenziell beobachten und wie du über Designentscheidungen nachdenken solltest, die das Spiel dir nie ausdrücklich erklärt.
 
-## Was in Build a Boat For Treasure als Mech zählt
+## Was die offizielle Spielseite bestätigt
 
-In diesem Spiel ist "Mech" eine Kurzbezeichnung für jeden Bau, der sich auf gegliederten Beinen fortbewegt, statt zu schweben, zu rollen oder zu fliegen. Die Community verwendet den Begriff locker, doch fast jeder Mech fällt in eine von vier Familien, und jede löst ein anderes Problem auf der Flussfahrt.
+Die [offizielle Roblox-Seite für Build a Boat for Treasure](https://www.roblox.com/games/537413528/Build-A-Boat-For-Treasure) ist die maßgebliche Quelle für die Identität des Spiels. Dem am 14. Oktober 2026 abgerufenen Eintrag zufolge wurde das Erlebnis am 2. November 2016 erstellt und zuletzt am 9. Oktober 2026 aktualisiert. Es wird der verifizierten Gruppe Chillz Studios zugeschrieben, ist dem Genre Adventure zugeordnet und gibt eine Servergröße von sieben Spielern an. Zum Zeitpunkt des Abrufs zeigte es ungefähr 5,2 Milliarden Besuche bei etwa 8.000 gleichzeitig online befindlichen Spielern.
 
-| Mech-Typ | Beinanzahl | Schwierigkeit | Am besten für | Hauptrisiko |
-|---|---|---|---|---|
-| Leichter Späherläufer | 2 | Mittel | Schnelle Checkpoint-Läufe | Kippen an Hängen |
-| Vierbeiniger Trabläufer | 4 | Mittel–Hoch | Stabilität auf rauem Gelände | Teilezahl und Leistungseinbrüche |
-| Hybrid-Rumpf-Mech | 4 | Hoch | Amphibische Etappen mit Schatzabwürfen | Wasserwiderstand an den Beinen |
-| Arm- oder Turm-Rig | 0 Beine | Niedrig–Mittel | Schätze greifen, Dekoration | Kein Transportbau |
+Eine wichtige Klarstellung: Dies ist nicht die unabhängige mobile App, die manchmal „Build a Boat - Obby Treasure" genannt wird. Die beiden zu verwechseln führt zu schlechten Ratschlägen, denn sie teilen zwar einen Namen, aber weder einen Entwickler noch eine Plattform noch ein Design.
 
-Weil es im Spiel darum geht, Checkpoints zu erreichen und Schätze zu transportieren, muss ein Mech mehr können, als nur in der Baufläche zu laufen. Er muss Hänge, Wasser und Hindernisse überstehen, ohne Teile zu verlieren. Deshalb behandeln erfahrene Bauer den Mech zuerst als Boot und erst danach als Roboter: Der Rahmen muss starr sein, die Gelenke müssen bewusst gesetzt werden, und alles, was nicht strukturell ist, sollte abnehmbar sein. Wenn du diese Denkweise beibehältst, wird sich der Rest dieses Build a Boat For Treasure Mech-Tutorials weniger wie Rätselraten anfühlen.
+## Was die Beschreibung bewirbt
 
-## Die Teileliste: Was jeder Mech braucht
+Die offizielle Beschreibung ist kurz und konzentriert sich auf Gruppenmitgliedschafts-Vorteile. Diese sind die einzigen konkreten Boni, die irgendwo auf der Seite dokumentiert sind:
 
-Jeder funktionierende Mech besteht aus denselben fünf Teilsystemen, die sich wiederholen: Struktur, Artikulation, Antrieb, Steuerung und Ballast. Teilebezeichnungen und Verfügbarkeit ändern sich zwischen Updates, daher solltest du die Tabelle unten als Rollen betrachten, nicht als exakte Teil-IDs. Spielerfahrung legt nahe, dass den meisten fehlgeschlagenen Bauten eines dieser Rollen völlig fehlt – meistens Ballast.
+| Mitgliedschaftsstufe | Beworbener Vorteil |
+| --- | --- |
+| Member | 25 % mehr Gold |
+| Mega Member | 300 % mehr Gesundheit und 25 % mehr Gold |
+| Royal Member | +4 Fässer TNT, 300 % mehr Gesundheit und 25 % mehr Gold |
 
-| Teilsystem | Rolle | Worauf achten | Häufiger Fehler |
-|---|---|---|---|
-| Chassis / Rahmen | Hält alles zusammen | Flaches, starres Deck mit verstärkten Ecken | Zu klein für Antriebs- und Steuerungsblöcke |
-| Hüft- und Kniegelenke | Lassen die Gliedmaßen sich beugen | Gelenke frei drehbar lassen | Ein Gelenk kleben, das sich bewegen muss |
-| Antrieb | Treibt den Mech vorwärts | Thruster oder Propeller in Fahrtrichtung ausgerichtet | Antriebsblöcke außermittig montieren |
-| Steuerung | Schaltet Bewegung um | Tasten oder Hebel jedem Motorengruppe zugeordnet | Jeder Motor auf einem einzigen Schalter |
-| Ballast / Gewicht | Hält die Füße am Boden | Masse tief und zentriert platziert | Ballons statt Gewicht hinzufügen |
-| Auftrieb (optional) | Gleicht schwere Bauten aus | Gerade genug Auftrieb, um die Last zu verringern | Übermäßiger Auftrieb, bis der Mech wegschwebt |
+Beachte, was dort *nicht* steht. Die Seite dokumentiert kein Promo-Code-System, kein Shop-Inventar, keine Blocknamen, keine Anzahl von Stages und keine Goldwerte. Das ist wichtig, wenn du nach Codes gesucht hast: Auf der offiziellen Seite ist kein Einlösesystem dokumentiert, daher stützt sich jede Liste, die aktive Codes behauptet, auf etwas anderes als Entwicklerdokumentation. Der ehrliche Weg, dies zu prüfen, besteht darin, das Spiel selbst zu öffnen und nach einem Code-Eingabefeld zu suchen oder die offizielle Beschreibung nach einem Update erneut zu lesen. Wenn eine Mechanik dort nicht beschrieben wird, behandle sie als unbestätigt.
 
-Ein kurzer Hinweis zur Steifigkeit: Kleber – oder welches Werkzeug für starre Verbindungen deine Version auch bietet – ist für den Rahmen gedacht. Wenn du ein Gelenk klebst, das sich beugen soll, hast du eine Statue gebaut. Umgekehrt gilt: Wenn du eine strukturelle Naht ungeklebt lässt, wird sie beim ersten harten Aufprall aufplatzen. Community-Berichte deuten durchweg auf genau diesen Fehler als Hauptursache für Beiträge der Art „mein Mech ist beim Start explodiert“ hin.
+## Auftrieb, Gewicht und Schub: Es durchdenken
 
-## Schritt für Schritt: Build a Boat For Treasure Mech-Tutorial
+Der folgende Teil ist Spielerüberlegung, keine dokumentierte Statistik. Das Spiel veröffentlicht keine Physik-Tabelle, also behandle diese Punkte als mentale Modelle und nicht als Regeln.
 
-Die Bau-Reihenfolge ist wichtiger als die Teileliste. Bauer, die mit den Beinen beginnen, bauen fast immer von Grund auf neu, weil sich das Chassis verändert, sobald Antrieb und Ballast hinzukommen. Arbeite stattdessen vom Rahmen nach außen:
+- **Halte den Massenschwerpunkt niedrig.** Ein schwerer Rumpf unter leichten Deckblöcken widersteht dem Kippen. Masse hoch zu stapeln macht jede Welle und jede Rampe zu einer Chance zu kentern.
+- **Verteile das Gewicht gleichmäßig über den Rumpf.** Ein einseitiger Bau neigt dazu, abzudriften oder zu rollen, und das mitten in einer Stage zu korrigieren ist viel schwieriger, als es auf dem Bauplatz zu beheben.
+- **Reserviere Auftrieb, bevor du Fracht hinzufügst.** Wenn dein Design beim Start bereits tief im Wasser liegt, verbessert das Hinzufügen weiterer Blöcke die Lage selten.
+- **Denke über die Schubrichtung nach, nicht nur über die Schubmenge.** Ein Antrieb, der dich von der Achse wegdrückt, verschwendet Energie damit, gegen deinen eigenen Rumpf anzukämpfen.
+- **Schütze die Teile, die du nicht ersetzen kannst.** Kritische Komponenten hinter günstigeren äußeren Blöcken zu umschließen ist eine verbreitete Gewohnheit in der Community, wobei davon abhängt, welche Blöcke als „kritisch" gelten, ganz von deinem eigenen Design.
 
-1. **Plan die Gangart.** Entscheide dich für die Beinanzahl und dafür, welche Beine sich gemeinsam bewegen, bevor du einen einzigen Block platzierst.
-2. **Baue das Chassis.** Ein flaches, starres Deck, groß genug für Antrieb, Steuerung und Ballast.
-3. **Füge Hüftaufnahmen hinzu.** Symmetrisch, waagerecht und gegen das Deck verstärkt.
-4. **Baue ein Bein.** Hüfte, Knie, Fuß – Gliedsegmente starr, Gelenke frei.
-5. **Spiegele das Bein.** Kopiere es Teil für Teil, nicht nach Augenmaß.
-6. **Füge Antrieb und Steuerung hinzu.** Antriebsblöcke plus Schalter für jede Motorengruppe.
-7. **Füge Ballast hinzu.** Gewicht tief und zentriert, um Kippen zu bekämpfen.
-8. **Füge Auftrieb und Feinschliff hinzu.** Ballons nur bei Bedarf, dann Verkleidung und eine Truhe für Schätze.
-9. **Teste und stimme ab.** Führe die gestaffelten Tests im nächsten Abschnitt durch.
+Die praktische Konsequenz ist, in kleinen Schritten zu testen. Ändere eine Variable, segle, beobachte und passe an. Da die offizielle Seite des Spiels keine spezifischen Blockwerte dokumentiert, solltest du alle präzisen Zahlen, die du online siehst, mit Skepsis behandeln.
 
-| Phase | Was du baust | Ziel | Test, bevor du weitermachst |
-|---|---|---|---|
-| 1 | Gangart-Plan | Beinanzahl und Paarung festlegen | Geh es im Kopf durch |
-| 2 | Chassis | Flaches, starres Deck | Falltest – nichts verschiebt sich |
-| 3 | Hüften | Waagerechte, gespiegelte Aufnahmen | Beide Hüften sitzen auf gleicher Höhe |
-| 4 | Prototyp-Bein | Ein vollständiges Glied | Gelenk bewegt sich durch den vollen Bereich |
-| 5 | Gespiegelte Beine | Identische Kopien | Beine stimmen Block für Block überein |
-| 6 | Antrieb und Steuerung | Antrieb plus Schalter | Motoren drehen, Thruster zünden |
-| 7 | Ballast | Niedriger Massenschwerpunkt | Schubtest – Mech kippt nicht |
-| 8 | Auftrieb und Feinschliff | Verkleidung, Ballons, Schatztruhe | Standtest – hält eine Pose |
+## Bauen für Hindernisse statt für offenes Wasser
 
-## Tipps zu Gangart, Balance und Steuerung
+Die Stages in Build a Boat for Treasure sind Hindernisparcours, keine ruhige See. Das verändert die Bedeutung von „gutem Design". Ein stabiles, aber langsames Schiff kann Gefahren überstehen, die ein schnelles, zerbrechliches nicht übersteht, und umgekehrt, je nachdem, was die Stage tatsächlich auf dich wirft.
 
-Ein Gehzyklus ist nur ein sich wiederholendes Stützmuster: Zu jedem Zeitpunkt müssen genügend Füße auf dem Boden sein, damit der Mech nicht fällt. Das einfachste zuverlässige Muster für vier Beine ist der diagonale Trab – vorne links bewegt sich mit hinten rechts, dann wird getauscht. Zweibeinige Läufer sind deutlich schwieriger, weil der Mech kurzzeitig auf einem einzigen Kontaktpunkt balanciert; gib solchen Bauten daher eine breite Fußplatte und ein niedriges Deck.
+Eine nützliche Gewohnheit ist, deinen Bau in zwei Fragen zu unterteilen. Erstens: Schwimmt er mit der Last, die du tragen willst, waagerecht? Zweitens: Kann er Kontakt überstehen? Panzerung, Verstrebungen und Redundanz tauschen alle Geschwindigkeit gegen Haltbarkeit, und es gibt kein einziges richtiges Verhältnis. Drittanbieter-Leitfäden beschreiben oft stage-spezifische Taktiken, und diese können wirklich hilfreich sein, aber sie spiegeln die Beobachtungen eines einzelnen Spielers wider und nicht die Entwicklerdokumentation. Überprüfe alles gegen, was wie eine exakte Zahl klingt.
 
-Die Motordrehzahl ist meist fest, daher stimmen Bauer die Geschwindigkeit stattdessen über den Hebelarm ab: Ein kürzeres Glied schwingt schneller, ein längeres schwingt langsamer, überbrückt aber pro Schritt mehr Strecke. Wenn ein Gelenk unter Last blockiert, besteht die übliche Lösung darin, das Glied zu erleichtern oder einen weiteren Motor an dasselbe Gelenk zu setzen, statt den gesamten Mech stärker anzutreiben.
+## Gruppen-Vorteile und ob sie sich lohnen
 
-| Symptom | Wahrscheinliche Ursache | Lösung |
-|---|---|---|
-| Mech macht den Spagat | Hüften auf unterschiedlichen Höhen montiert | Beide Aufnahmen in derselben Reihe neu bauen |
-| Beine brechen unter dem Gewicht zusammen | Zu viel Masse pro Gelenk oder ein geklebtes Gelenk ist gebrochen | Glied erleichtern, Rahmen verstärken |
-| Mech läuft im Kreis | Linke und rechte Beine sind nicht identisch | Blöcke auf jeder Seite neu zählen |
-| Kippt mitten im Schritt nach vorn | Massenschwerpunkt zu hoch oder zu weit vorn | Ballast nach unten und hinten verlegen |
-| Motoren blockieren | Zu viel Last auf einem Gelenk | Glied verkürzen, Motor am Gelenk hinzufügen |
-| Beine bleiben am Deck hängen | Fußplatten zu breit oder Beine streifen den Rumpf | Füße schmaler machen, Hüftaufnahmen höher setzen |
-| Teile lösen sich beim Aufprall | Ungeklebte strukturelle Naht | Jede Rahmennaht neu verkleben |
+Die drei beworbenen Stufen sind der klarste dokumentierte Vorteil im Spiel. Die 25 % mehr Gold der Member-Stufe sind ein unkomplizierter Multiplikator auf Einnahmen. Mega Member und Royal Member fügen 300 % mehr Gesundheit hinzu, was am wichtigsten ist, wenn deine Designs dazu neigen, unter Aufprall auseinanderzubrechen. Royal Member listet zusätzlich +4 Fässer TNT auf, was auf eine offensive oder sprengtechnische Option hindeutet, die andere Stufen nicht erhalten.
 
-## Deinen Mech testen und Schatz-Etappen fahren
+Ob diese Vorteile einen Beitritt rechtfertigen, ist eine persönliche Entscheidung. Was überprüfbar ist: Die Vorteile stammen aus der offiziellen Beschreibung, nicht aus einem Wiki oder einem Forenbeitrag. Wenn du sie mit einem In-Game-Kauf oder einer Robux-Option vergleichen möchtest, prüfe die Shop-Oberfläche des Spiels selbst statt einer Preisliste von Drittanbietern, denn die offizielle Seite veröffentlicht keine Preise.
 
-Teste in Schichten: zuerst flacher Boden, dann ein Hang, dann eine kurze Flussfahrt. Jede Schicht deckt eine andere Problemklasse auf, und wenn du direkt zu einer vollen Schatzfahrt übergehst, endet das meist damit, dass dein Mech am ersten Wasserfall in Einzelteile zerfällt. Checkpoints spielen dir hier in die Hände – sie lassen dich eine Etappe wiederholen, ohne von null neu zu bauen, also behandle jede fehlgeschlagene Fahrt als kostenlose Daten. Wenn deine Version das Speichern von Designs unterstützt, halte eine saubere Kopie eines Mechs, der läuft, bereit, bevor du mit Experimenten zur Gewichtsverteilung beginnst.
+## Häufige Fehler neuer Bootsbauer
 
-| Test | Bestehensbedingung | Warum es wichtig ist |
-|---|---|---|
-| Standtest | Hält eine Pose bei ausgeschaltetem Antrieb | Prüft Gelenke und Balance |
-| Gehtest auf flachem Boden | Zehn saubere Schritte, kein Wackeln | Prüft Gangart und Symmetrie |
-| Steigungstest | Steigt auf und ab, ohne zu rutschen | Prüft Fußhaftung und Massenschwerpunkt |
-| Wendetest | Dreht sich, ohne Füße zu schleifen | Prüft Steuerungszuordnung |
-| Wasserungstest | Beine verlassen das Wasser sauber | Prüft ein Hybrid-Rumpf-Layout |
-| Vollständige Flussfahrt | Erreicht den nächsten Checkpoint | Prüft das gesamte System unter Belastung |
+Einige wiederkehrende Probleme treten unabhängig vom Können auf, und es lohnt sich, sie klar zu benennen.
 
-Wenn du bereit bist, Etappen zu fahren, spring über [Robloxs offizielle Spiele-Seite](https://www.roblox.com/games) in das Erlebnis und führe eine kurze Liste darüber, was bei jedem Versuch kaputtgegangen ist. Ein Mech, der an demselben Hindernis zweimal scheitert, sagt dir genau, welches Teilsystem du neu bauen musst.
+- **Zu viel bauen, bevor man testet.** Ein riesiges Schiff, das noch nie gesegelt ist, sagt dir nichts.
+- **Die Grenzen des Bauplatzes ignorieren.** Was auch immer du entwirfst, muss den Bauplatz intakt verlassen.
+- **Codes nachjagen, die nicht dokumentiert sind.** Wenn du im Spiel kein Eingabefeld findest, gibt es nichts einzulösen.
+- **Annehmen, dass ein Bau für jede Stage passt.** Anpassung schlägt normalerweise ein einziges universelles Design.
+- **Exakten Zahlen aus inoffiziellen Quellen vertrauen.** Die Entwicklerseite dokumentiert Vorteile und Identität, nicht Werte.
 
 ## FAQ
 
-**Wie lange dauert es, einen funktionierenden Mech zu bauen?**
-Ein grundlegender vierbeiniger Trab ist für die meisten Spieler ein Abendprojekt, während ein zweibeiniger Läufer deutlich länger dauern kann. Das Bauen selbst geht schnell – für die Abstimmung von Gangart und Balance gehen die Stunden drauf.
+**Ist Build a Boat for Treasure dasselbe wie „Build a Boat - Obby Treasure"?** Nein. Es sind separate Produkte. Das Roblox-Erlebnis ist Place 537413528 von Chillz Studios.
 
-**Brauche ich zuerst teure Materialien?**
-Nein. Beginne mit den günstigsten Strukturblöcken, denn Masse und Teilezahl wirken sich weit stärker auf deinen Mech aus als die Materialart. Rüste auf, sobald der Gehzyklus stabil ist.
+**Gibt es aktive Promo-Codes?** Auf der offiziellen Seite sind keine dokumentiert. Suche selbst in der In-Game-Oberfläche und prüfe die offizielle Beschreibung nach Updates erneut.
 
-**Kann ein Mech schwimmen und gleichzeitig Schätze sammeln?**
-Ja. Baue einen wasserdichten Rumpf oder füge Auftriebsblöcke hinzu, halte die Hüftaufnahmen über der Wasserlinie und treibe mit Thrustern oder Propellern an. Hybrid-Bauten sind langsamer, aber auf Flussetappen deutlich verzeihender.
+**Was bekommen Gruppenmitglieder tatsächlich?** Member: 25 % mehr Gold. Mega Member: 300 % mehr Gesundheit und 25 % mehr Gold. Royal Member: +4 Fässer TNT, 300 % mehr Gesundheit und 25 % mehr Gold.
 
-**Warum fällt mein Mech beim Start sofort auseinander?**
-Neun von zehn Mal ist es eine ungeklebte Rahmennaht oder ein Gelenk, das geklebt wurde, obwohl es sich bewegen musste. Wiederhole die Bau-Reihenfolge in diesem Build a Boat For Treasure Mech-Tutorial und bestätige den Test jeder Phase, bevor du erneut startest.
+**Wie viele Stages gibt es?** Nicht im offiziellen Eintrag dokumentiert. Prüfe es im Spiel.
+
+**Wie viele Spieler passen in einen Server?** Der Eintrag gibt eine Servergröße von sieben an.
+
+**Kann ich den Bauplan von jemand anderem kopieren?** Es ist kein Bauplan-System dokumentiert. Community-Designs zirkulieren informell, aber behandle sie als Beobachtungen, nicht als offizielle Inhalte.
+
+Der zuverlässigste Weg nach vorn ist, die offizielle Seite zu lesen, etwas Kleines zu bauen, es zu segeln und das Wasser dir sagen zu lassen, was du reparieren musst.
